@@ -1,10 +1,12 @@
-# Obsidian
+# OBSIDIAN THEME
 
-# Translucence Theme - [![Paypal][paypal-logo]][paypal-url] [![GitHub][github-logo]][github-url] [![Discord][discord-logo]][discord-url] [![Download][download-logo]][download-url]
+# Translucence Theme - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
 #### Obsidian Discord theme
 <hr>
 
 Current version: v5.0 (26/11/2021)
+
+[![Download][download-logo]][download-url]
 
 Assets located at: https://github.com/MIMIR-X/Obsidian/
 
@@ -87,7 +89,7 @@ Assets located at: https://github.com/MIMIR-X/Obsidian/
 #### v5.0 (26/11/2021)
 * Some bugs fixed.
 
-[View previous changelogs](https://github.com/MIMIR-X/Obsidian/changelog.md)
+[View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
 
 [paypal-logo]: https://img.shields.io/static/v1?label=PayPal&message=Donate&style=flat&logo=paypal&color=blue
 [paypal-url]: https://paypal.me/CBovin
