@@ -1,7 +1,5 @@
-# OBSIDIAN THEME
-
-# Translucence Theme - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
-#### Obsidian Discord theme
+# Obsidian Theme - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
+#### Obsidian Better Discord Theme
 <hr>
 
 Current version: v5.0 (26/11/2021)
