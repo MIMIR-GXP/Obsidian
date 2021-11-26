@@ -6,8 +6,6 @@ Current version: v5.0 (26/11/2021)
 
 [![Download][download-logo]][download-url]
 
-Assets located at: https://github.com/MIMIR-X/Obsidian/
-
 ## Previews
 
 * Coming soon...
