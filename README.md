@@ -1,8 +1,8 @@
 # Obsidian Theme - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
-#### Obsidian Better Discord Theme
+#### Obsidian's Better Discord Theme.
 <hr>
 
-Current version: v5.0 (26/11/2021)
+#### Current version: v5.0 (26/11/2021)
 
 [![Download][download-logo]][download-url]
 
