@@ -11,6 +11,7 @@
 */
 @import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
 @import url("https://mr-miner1.github.io/Better-Badges/src/badges.css");
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 
 
 
@@ -223,8 +224,9 @@
     font-size: 10px;
     box-sizing: border-box;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: bold;
+    background: var(--gradient);
 }
 
 /* UI */
