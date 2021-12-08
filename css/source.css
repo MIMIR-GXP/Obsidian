@@ -1226,14 +1226,3 @@ textarea {
     background: black;
     opacity: 0.5;
 }
-
-#app-mount .guilds-1SWlCJ .frame-oXWS21[class*=listItem] .button-Jt-tIg {
-    width: 100% !important;
-    height: 50% !important;
-    border-radius: 8px !important;
-    padding: 4px !important;
-    font-size: 11px !important;
-    box-sizing: border-box !important;
-    text-align: center !important;
-    background: var(--gradient) !important;
-}
