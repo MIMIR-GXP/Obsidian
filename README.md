@@ -82,8 +82,13 @@
 
 ## Changelog
 
-#### v5.0 (26/11/2021)
-* Some bugs fixed.
+#### v6.0 (08/12/2021)
+* More Customizable
+* Style Noise supression added
+* Style Role popup modal added
+* Fix Home button
+* Fix Note popup modal
+* Server Width added
 
 [View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
 
@@ -91,7 +96,7 @@
 [paypal-url]: https://paypal.me/CBovin
 
 [download-logo]: https://img.shields.io/static/v1?label=Download&message=Obsidian+Theme&style=flat&color=blue
-[download-url]: https://mega.nz/file/dUBGDZ5J#B2RoPHkk7Zjkd2-30iDFmez5uRFy1tmRnT9621xaGhY
+[download-url]: https://mega.nz/file/MdoShbqL#YMS0cH4LNX6kH_QyhPkswEWdxvllMS8snVogZAxTZKY
 
 [discord-logo]: https://img.shields.io/static/v1?label=Discord&message=Server&style=flat&logo=discord&color=blue
 [discord-url]: https://discord.gg/t2c
