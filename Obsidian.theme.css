@@ -1,6 +1,6 @@
 /**
 * @name Obsidian
-* @version 5.0
+* @version 6.0
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
@@ -11,6 +11,8 @@
 */
 @import url("https://mimir-x.github.io/Obsidian/css/source.css");
 
+/* COMMENT OR NOT IF YOU WANT HORIZONTAL SERVER LIST */
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 
 
 :root {
@@ -52,6 +54,13 @@
             --window-padding: 25px;
             --window-roundness: 20px;
             
+        /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+        /* +++++++++++++++++++++++++ SERVER WIDTH +++++++++++++++++++++++++ */
+
+            --server-width: 350px;
+            --server-banner-top-spacing: 160px;
+                
         /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
         /* ++++++++++++++++++++++ COLORS & FONT +++++++++++++++++++++++ */

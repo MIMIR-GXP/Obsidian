@@ -1,6 +1,6 @@
 /**
 * @name Obsidian
-* @version 5.0
+* @version 6.0
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
@@ -11,8 +11,7 @@
 */
 @import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
 @import url("https://mr-miner1.github.io/Better-Badges/src/badges.css");
-@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
 
 
 :root {
@@ -31,6 +30,8 @@
     --home-button-size: 52px;
     --home-button-position: center;
 
+    --server-width: 350px;
+    --server-banner-top-spacing: 160px;
     --serverlist-brightness: 0.6;
     --left-brightness: 0.6;
     --middle-brightness: 0.6;
@@ -66,7 +67,7 @@
 
     /* --version: " V3.0 BY ᛗᛁᛗᛁᚱ "; */
     /* --obsidian: " Obsidian "; */
-    --version: "v5.0";
+    --version: "v6.0";
     --obsidian: "OBSIDIAN";
     /* --logo-obsidian: url(""); */
 
@@ -358,16 +359,25 @@
 }
 
 .role-2irmRk {
-    font-size: 11px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 600;
     background: var(--background-secondary-alt);
-    border-radius: 10px;
+    border-radius: 12px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 22px;
-    margin: 0 4px 4px 0;
-    padding: 5px 8px;
+    margin: 0px 0px 8px 0;
+    padding: 5px 9px;
 }
+
+.rolesList-1geHY1 {
+    margin-bottom: 10px;
+}
+
+.roleName-32vpEy {
+    margin-right: 8px;
+}
+
 
 #app-mount .bd-search-wrapper,
 #app-mount .input-cIJ7To:not(.searchBoxInput-K6mkng) {
@@ -415,7 +425,7 @@
 
 #app-mount .guilds-1SWlCJ [class*=circleIconButton] {
     background: var(--white);
-    color: rgb(var(--gradient-secondary));
+    color: rgb(var(--gradient-secondary)) !important;
 }
 
 /*CHANNEL & MEMBER RADIUS */
@@ -485,7 +495,7 @@
 
 #app-mount .sidebar-2K8pFh {
     border-radius: 0;
-    width: 350px;
+    width: var(--server-width);
 }
 
 .content-1Wq3SX {
@@ -521,7 +531,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 350px;
+    width: var(--server-width);
 }
 
 .animatedContainer-1NSq4T {
@@ -579,7 +589,7 @@
 /* FIX BANNER SIZE */
 
 .bannerImg-2NHyzX {
-    width: 350px !important;
+    width: var(--server-width) !important;
     height: auto !important;
 }
 
@@ -588,7 +598,7 @@
 }
 
 .sidebar-2K8pFh div[style="height: 84px;"] {
-    height: 140px !important;
+    height: var(--server-banner-top-spacing) !important;
 }
 
 /*EMOJI*/
@@ -1120,4 +1130,99 @@ textarea {
 
 .phoneField-38N1bJ .inputField-aNPXsv {
     background-color: transparent !important;
+}
+
+
+/* V6 UPDATE */
+
+
+/* HOME BUTTON */
+
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > nav > ul > div.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih > div.tutorialContainer-11ICd5 > div > div.listItemWrapper-2MsAsM > div > svg > foreignObject > div > div > svg {
+    display: none !important;
+}
+
+#app-mount .guilds-1SWlCJ .tutorialContainer-11ICd5 .childWrapper-anI2G9 {
+    background: transparent !important;
+}
+
+/* NOISE SUPRESS */
+
+.noiseCancellationPopout-iRK2A0 {
+    border-radius: 20px;
+    backdrop-filter: blur(100px) brightness(0.7) !important;
+    padding: 25px;
+    animation: fadeIn 0.3s ease forwards;
+
+}
+
+.full-motion .translate-2dAEQ6.didRender-33z1u8 {
+    transition: 0s !important;
+    transform: none !important;
+}
+
+/* ROLE LISTE */
+
+#app-mount .container-3XJ8ns .container-cMG81i {
+    background: transparent !important;
+}
+
+.container-3XJ8ns {
+    border-radius: 20px !important;
+    border: none;
+    backdrop-filter: blur(1px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.9);
+}
+
+.combobox-3V1oCd {
+    margin: 10px;
+}
+
+.item-2J2GlB {
+    border-radius: 15px;
+}
+
+.textarea-2r0oV8 {
+    padding: 11px;
+}
+
+/* INVITE LINK */
+
+.wrapper-35wsBm {
+    border-radius: 20px;
+}
+
+/* role fix */
+
+#app-mount [class*=userPopout][aria-modal=true] .roleCircle-3xAZ1j::after {
+    height: 26px;
+}
+
+.rolesList-1geHY1 {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* VERTICAL server list */
+
+.tutorialContainer-11ICd5 {
+    margin-top: 10px;
+}
+
+
+.role-2irmRk {
+    background: transparent;
+
+}
+
+
+#app-mount [class*=userPopout][aria-modal=true] .roleCircle-3xAZ1j::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    background: black;
+    opacity: 0.5;
 }
