@@ -1228,12 +1228,12 @@ textarea {
 }
 
 #app-mount .guilds-1SWlCJ .frame-oXWS21[class*=listItem] .button-Jt-tIg {
-    width: 100%;
+    width: 100% !important;
     height: 50% !important;
-    border-radius: 8px;
-    padding: 4px;
-    font-size: 11px;
-    box-sizing: border-box;
-    text-align: center;
-    background: var(--gradient);
+    border-radius: 8px !important;
+    padding: 4px !important;
+    font-size: 11px !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+    background: var(--gradient) !important;
 }
