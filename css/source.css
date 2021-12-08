@@ -221,12 +221,20 @@
     height: 50% !important;
     border-radius: 8px;
     padding: 12px;
-    font-size: 10px;
+    font-size: 9px;
     box-sizing: border-box;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    background: var(--gradient);
+    transition: 0.5s;
+
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    color: #fff;
+    background-color: rgba(var(--gradient-secondary));
+    transition: 0.5s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 /* UI */
@@ -1155,7 +1163,6 @@ textarea {
     backdrop-filter: blur(100px) brightness(0.7) !important;
     padding: 25px;
     animation: fadeIn 0.3s ease forwards;
-
 }
 
 .full-motion .translate-2dAEQ6.didRender-33z1u8 {
