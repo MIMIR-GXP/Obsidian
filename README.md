@@ -91,7 +91,7 @@
 [paypal-url]: https://paypal.me/CBovin
 
 [download-logo]: https://img.shields.io/static/v1?label=Download&message=Obsidian+Theme&style=flat&color=blue
-[download-url]: https://mega.nz/file/dUBGDZ5J#B2RoPHkk7Zjkd2-30iDFmez5uRFy1tmRnT9621xaGhY
+[download-url]: https://mega.nz/file/MdoShbqL#YMS0cH4LNX6kH_QyhPkswEWdxvllMS8snVogZAxTZKY
 
 [discord-logo]: https://img.shields.io/static/v1?label=Discord&message=Server&style=flat&logo=discord&color=blue
 [discord-url]: https://discord.gg/t2c
