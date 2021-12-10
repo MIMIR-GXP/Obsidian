@@ -6,12 +6,16 @@
 * @authorId 106097290640363520
 * @invite t2c
 * @website http://github.com/MIMIR-X
-
 */
 
-@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
-@import url("https://mr-miner1.github.io/Better-Badges/src/badges.css");
+/* Base - FrostedGlass By Gibbu ---> https://github.com/Gibbu */
+@import url("https://mimir-x.github.io/Obsidian/css/base.css");
+
+/* Extension */
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+@import url("https://mr-miner1.github.io/Better-Badges/src/badges.css");
+
+
 
 :root {
     --background-image: url('https://i.imgur.com/kYW2H5C.jpg');
@@ -64,8 +68,6 @@
     --badges-everywhere-size: 15px;
     /*default = 15px*/
 
-    /* --version: " V3.0 BY ᛗᛁᛗᛁᚱ "; */
-    /* --obsidian: " Obsidian "; */
     --version: "v6.0";
     --obsidian: "OBSIDIAN";
     /* --logo-obsidian: url(""); */
