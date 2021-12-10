@@ -69,11 +69,7 @@
     --badges-everywhere-size: 15px;
     /*default = 15px*/
 
-<<<<<<< HEAD
     --version: "v7.0";
-=======
-    --version: "v6.0";
->>>>>>> dabc7ad21fb1680d75ef4a43967d2caac311147c
     --obsidian: "OBSIDIAN";
     /* --logo-obsidian: url(""); */
 
@@ -1196,7 +1192,6 @@ textarea {
     background: black;
     opacity: 0.5;
 }
-<<<<<<< HEAD
 
 /* Server & Folders */
 
@@ -1402,5 +1397,3 @@ textarea {
 .scrollableContainer-2NUZem {
     border-radius: 25px;
 }
-=======
->>>>>>> dabc7ad21fb1680d75ef4a43967d2caac311147c
