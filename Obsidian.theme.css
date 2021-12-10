@@ -7,12 +7,10 @@
 * @invite t2c
 * @website http://github.com/MIMIR-X
 * @source https://github.com/MIMIR-X/Obsidian
-
 */
-@import url("https://mimir-x.github.io/Obsidian/css/main.css");
 
-/* COMMENT OR NOT IF YOU WANT HORIZONTAL SERVER LIST */
-@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+/*Import Obsidian Main */
+@import url("https://mimir-x.github.io/Obsidian/css/main.css");
 
 
 :root {
@@ -56,7 +54,7 @@
             
         /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-        /* +++++++++++++++++++++++++ SERVER WIDTH +++++++++++++++++++++++++ */
+        /* +++++++++++++++++++++++++ SERVER WIDTH +++++++++++++++++++++ */
 
             --server-width: 350px;
             --server-banner-top-spacing: 160px;
