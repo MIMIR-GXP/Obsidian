@@ -1397,3 +1397,9 @@ textarea {
 .scrollableContainer-2NUZem {
     border-radius: 25px;
 }
+
+/* FIX SERVER LIST SVG ICON */
+
+.iconBadge-2NuvG9 {
+    margin: -2px;
+}
