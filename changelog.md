@@ -1,7 +1,7 @@
 ## Changelog
 
 #### v7.0 (10/12/21)
-* Emoji popout remae
+* Emoji popout remade
 * Emoji remade
 * Send message rounded
 * Server bar & server folder remade
