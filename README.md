@@ -2,7 +2,7 @@
 #### Obsidian's Better Discord Theme.
 <hr>
 
-#### Current version: v8.0 (08/12/2021)
+#### Current version: v8.0 (18/02/2022)
 
 [![Download][download-logo]][download-url]
 
