@@ -15,6 +15,7 @@
 /* Extension */
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 @import url("https://mr-miner1.github.io/Better-Badges/src/badges.css");
+@import url("https://mimir-gxp.github.io/Obsidian/css/MacTitleBar.css");
 
   
 :root {
@@ -1393,6 +1394,63 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 .friend-8ZraY7 {
     border-radius: 20px 10px 10px 20px;
     transition: 0.3s;
+}
+
+/* -------------------------------------- */
+
+.scroller-2qwVWY {
+    z-index: 0;
+    margin-right: 0px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: var(--background-secondary);
+}
+
+.input-3r5zZY {
+    border-radius: 20px !important;
+}
+
+.container-qBnZJg {
+    background-color: transparent !important;
+}
+
+#app-mount .quickswitcher-pKcM9U {
+    background-color: var(--background-obsidian);
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.8) !important;
+}
+
+.result-u66Ywh {
+    border-radius: 20px;
+}
+
+/* tchat reaction */
+
+.wrapper-2vIMkT {
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(20px);
+}
+
+.wrapper-2vIMkT:hover {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.attachedBars-2BCP3l {
+    background: transparent;
+}
+
+.replyBar-1oi75v {
+    background: var(--background-active);
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+/* Button Video & Screen */
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+    background: var(--gradient-primary) !important;
 }
 
 /* ------------------ TODO LIST ------------------- */
