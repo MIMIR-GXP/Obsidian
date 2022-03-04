@@ -1,0 +1,98 @@
+:root {
+    --close-button-color: #e92a2ade;
+    --maximize-button-color: #f7bc1bde;
+    --minimize-button-color: #12db33de;
+    --button-position: row;
+}
+
+.withFrame-2dL45i {
+    margin: 0;
+    height: 24px;
+}
+
+.winButton-3UMjdg {
+    pointer-events: auto;
+    -webkit-app-region: no-drag;
+}
+
+.withFrame-2dL45i .winButton-3UMjdg>svg {
+    display: none;
+}
+
+.withFrame-2dL45i .winButton-3UMjdg:hover {
+    background-color: var(--background-teritary);
+}
+
+.withFrame-2dL45i .winButton-3UMjdg {
+    pointer-events: none;
+    margin-left: 20px !important;
+    top: 0;
+}
+
+.withFrame-2dL45i .winButton-3UMjdg::after {
+    content: "";
+    border-radius: 50px;
+    pointer-events: fill;
+    transition-duration: 200ms;
+}
+
+.withFrame-2dL45i .winButtonClose-3Q8ZH5::after {
+    background-image: url('https://mimir-gxp.github.io/Obsidian/img/close.png') !important;
+    background-size: 100%;
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+}
+
+.withFrame-2dL45i .winButtonClose-3Q8ZH5:hover::after {
+    background-image: url('https://mimir-gxp.github.io/Obsidian/img/closeHover.png') !important;
+    background-size: 100%;
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+}
+
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3)::after {
+    background-image: url('https://mimir-gxp.github.io/Obsidian/img/max.png') !important;
+    background-size: 100%;
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+}
+
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3) {
+    margin-left: -70px !important;
+}
+
+
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3):hover::after {
+    background-image: url('https://mimir-gxp.github.io/Obsidian/img/maxHover.png') !important;
+    background-size: 100%;
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+
+}
+
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(4):after {
+    background-image: url('https://mimir-gxp.github.io/Obsidian/img/min.png') !important;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+
+
+
+}
+
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(4):hover:after {
+    background-image: url('https://mimir-gxp.github.io/Obsidian/img/minHover.png') !important;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+}
+
+.typeWindows-2-g3UY>div:hover::after {
+    transform: scale(1.1);
+}
