@@ -1,16 +1,17 @@
 /**
 * @name Obsidian
-* @version 8.0
+* @version 2.0.0
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
 * @invite t2c
-* @website http://github.com/MIMIR-X
-* @source https://github.com/MIMIR-X/Obsidian
+* @website http://github.com/MIMIR-GXP
+* @source https://github.com/MIMIR-GXP/Obsidian
 */
 
 /*Import Obsidian Main */
-@import url("https://mimir-x.github.io/Obsidian/css/main.css");
+@import url("https://mimir-gxp.github.io/Obsidian/css/main.css");
+@import url("https://mimir-gxp.github.io/Obsidian/css/MacTitleBar.css");
 
 
 :root {
@@ -65,8 +66,10 @@
         /* USING RGB COLOR CODE https://htmlcolorcodes.com */
 
             /* MAIN COLOR THEME */
-            --gradient-primary: 64, 27, 193; 
-            --gradient-secondary: 63, 81, 181;
+            --background-obsidian: #0c111c;
+
+            --gradient-primary: rgb(62, 50, 173);
+            --gradient-secondary: rgb(89, 63, 218);
             --gradient-direction: 260deg;
 
             /* TINT */
@@ -79,6 +82,7 @@
 
             /* FONT */
             --font: 'Whitney';
+            --font-code: 'Whitney';
 
         /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
