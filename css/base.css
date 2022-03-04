@@ -8,7 +8,7 @@
   --white: rgba(255,255,255,0.05);
   --white-double: rgba(255,255,255,0.1);
   --white-triple: rgba(255,255,255,0.15);
-  --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
+  --gradient: linear-gradient(var(--gradient-direction), var(--gradient-primary), var(--gradient-secondary));
   --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.2), rgba(var(--gradient-secondary), 0.2));
   --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
   --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
@@ -120,19 +120,19 @@
   font-weight: 600;
 }
 #app-mount .botTagInvert-18-95s {
-  color: rgb(var(--gradient-primary));
+  color: var(--gradient-primary);
 }
 #app-mount .botTagInvert-18-95s .botText-1fD6Qk {
   font-weight: bold;
 }
 
 ::-moz-selection {
-  background: rgb(var(--gradient-primary));
+  background: var(--gradient-primary);
   color: var(--text-normal);
 }
 
 ::selection {
-  background: rgb(var(--gradient-primary));
+  background: var(--gradient-primary);
   color: var(--text-normal);
 }
 
@@ -339,7 +339,7 @@
   background: var(--gradient);
 }
 #app-mount .lookLink-9FtZy-.colorBrand-3pXr91 {
-  color: rgb(var(--gradient-primary));
+  color: var(--gradient-primary);
   opacity: 1;
 }
 #app-mount .lookOutlined-3sRXeN.colorBrand-3pXr91 {
@@ -394,7 +394,7 @@
   background: var(--text-normal);
 }
 #app-mount .item-26Dhrx[style*="rgb(114, 137, 218)"] polyline {
-  stroke: rgb(var(--gradient-primary));
+  stroke: var(--gradient-primary);
 }
 #app-mount .item-26Dhrx[style*="rgb(240, 71, 71)"] .checkbox-1ix_J3, #app-mount .item-26Dhrx[style*="rgb(250, 166, 26)"] .checkbox-1ix_J3, #app-mount .item-26Dhrx[style*="rgb(67, 181, 129)"] .checkbox-1ix_J3 {
   background: var(--text-normal);
@@ -406,11 +406,11 @@
   background: var(--gradient);
 }
 #app-mount .checkboxElement-uwAa9F:checked + span {
-  border-color: rgb(var(--gradient-primary));
-  background: rgb(var(--gradient-primary));
+  border-color: var(--gradient-primary);
+  background: var(--gradient-primary);
 }
 #app-mount .checkbox-3s5GYZ {
-  color: rgb(var(--gradient-primary));
+  color: var(--gradient-primary);
 }
 #app-mount .checkbox-1ix_J3 {
   background: var(--white);
@@ -522,7 +522,7 @@
 }
 #app-mount .guilds-2JjMmN [class*=circleIconButton] {
   background: var(--white);
-  color: rgb(var(--gradient-primary));
+  color: var(--gradient-primary);
 }
 #app-mount .guilds-2JjMmN [class*=circleIconButton].selected-ugP_am, #app-mount .guilds-2JjMmN [class*=circleIconButton]:hover {
   background: var(--white-double);
@@ -579,7 +579,7 @@
 }
 #app-mount .containerUserOver-SDa1HW:after {
   background: var(--gradient-20);
-  border: 2px solid rgb(var(--gradient-primary));
+  border: 2px solid var(--gradient-primary);
 }
 
 #app-mount .channel-1Shao0 .selected-3veCBZ {
@@ -756,7 +756,7 @@
 }
 #app-mount .member-2gU6Ar.selected-1-Z6gm .botTagRegular-2HEhHi {
   background: var(--text-normal);
-  color: rgb(var(--gradient-primary));
+  color: var(--gradient-primary);
   margin-top: 0;
 }
 #app-mount .member-2gU6Ar.selected-1-Z6gm .botText-1fD6Qk {
@@ -859,7 +859,7 @@
 }
 #app-mount .button-F9qN4n.focused-3ZzkKr {
   background: var(--white-double);
-  box-shadow: 0 0 0 2px rgb(var(--gradient-primary));
+  box-shadow: 0 0 0 2px var(--gradient-primary);
 }
 
 #app-mount .drawerSizingWrapper-27qFHb {
@@ -893,7 +893,7 @@
 }
 #app-mount .drawerSizingWrapper-27qFHb .focused-q9B2e4:after,
 #app-mount .drawerSizingWrapper-27qFHb .result-3OpoO7:hover:after {
-  box-shadow: inset 0 0 0 2px rgb(var(--gradient-primary));
+  box-shadow: inset 0 0 0 2px var(--gradient-primary);
 }
 #app-mount .drawerSizingWrapper-27qFHb .result-3OpoO7 {
   background-color: var(--white) !important;
