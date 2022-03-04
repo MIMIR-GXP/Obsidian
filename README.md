@@ -2,7 +2,7 @@
 #### Obsidian's Better Discord Theme.
 <hr>
 
-#### Current version: v8.0 (18/02/2022)
+#### Current version: v2.0.0 (04/03/2022)
 
 [![Download][download-logo]][download-url]
 
@@ -95,7 +95,7 @@
 [paypal-url]: https://paypal.me/CBovin
 
 [download-logo]: https://img.shields.io/static/v1?label=Download&message=Obsidian+Theme&style=flat&color=blue
-[download-url]: https://mega.nz/file/NUgC1CxC#9TAPx90RltYESdzF29X2z-_0FUU6cE0q0yMrQAKrgxw
+[download-url]: https://mega.nz/file/0dYgCJoD#_2VyiQ1yac5BFsRyMWRe3FuuEHWfjDjMYBaGX2jRuhA
 
 [discord-logo]: https://img.shields.io/static/v1?label=Discord&message=Server&style=flat&logo=discord&color=blue
 [discord-url]: https://discord.gg/t2c
