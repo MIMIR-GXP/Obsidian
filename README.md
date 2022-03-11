@@ -4,7 +4,7 @@
 
 #### Current version: v2.0.1 (11/03/2022)
 
-[![Direct Download][download-logo]][download-url]
+[![Download][download-logo]][download-url]
 
 ## Previews
 
@@ -95,7 +95,7 @@
 [paypal-logo]: https://img.shields.io/static/v1?label=PayPal&message=Donate&style=flat&logo=paypal&color=blue
 [paypal-url]: https://paypal.me/CBovin
 
-[download-logo]: https://img.shields.io/static/v1?label=Download&message=Obsidian+Theme&style=flat&color=blue
+[download-logo]: https://img.shields.io/static/v1?label=Download&message=Obsidian+Theme&style=flat&color=red
 [download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v2.0.1/Obsidian.theme.css
 
 [discord-logo]: https://img.shields.io/static/v1?label=Discord&message=Server&style=flat&logo=discord&color=blue
