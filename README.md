@@ -2,7 +2,7 @@
 #### Obsidian's Better Discord Theme.
 <hr>
 
-#### Current version: v2.0.0 (04/03/2022)
+#### Current version: v2.0.1 (11/03/2022)
 
 [![Download][download-logo]][download-url]
 
@@ -82,12 +82,13 @@
 
 ## Changelog
 
-#### v7.0 (10/12/21)
-* Emoji popout remade
-* Emoji remade
-* Send message rounded
-* Server bar & server folder remade
-* Fix others bugs
+#### v2.0.1 (11/03/22)
+* Role redone and deletion of roles in column
+* Settings UI remade
+* Update notice
+* Threads section remade
+* Last popup remade
+* Some bugs fixed
 
 [View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
 
