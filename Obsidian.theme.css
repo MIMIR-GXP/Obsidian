@@ -1,6 +1,6 @@
 /**
 * @name Obsidian
-* @version 2.0.0
+* @version 2.0.1
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
@@ -12,7 +12,6 @@
 /*Import Obsidian Main */
 @import url("https://mimir-gxp.github.io/Obsidian/css/main.css");
 @import url("https://mimir-gxp.github.io/Obsidian/css/MacTitleBar.css");
-
 
 :root {
 
@@ -72,6 +71,15 @@
             --gradient-secondary: rgb(89, 63, 218);
             --gradient-direction: 260deg;
 
+            /*ALERT COLOR*/
+            --gradient-primary-alert: rgb(223, 45, 74);
+            --gradient-secondary-alert: rgb(235, 65, 102);
+            --gradient-direction-alert: 260deg;
+
+            /*BACKGROUND COLOR OF MENTION MESSAGE*/
+            --gradient-primary-opacity: 62, 50, 173;
+            --gradient-secondary-opacity: 89, 63, 218;
+
             /* TINT */
             --tint-colour: 255, 51, 159;
             --tint-brightness: 0;
@@ -94,4 +102,9 @@
 
         /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-}
+        /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+        /*  --update-notice: none;  */  /* Remove the comment if you want remove the update message */
+
+        /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+}       

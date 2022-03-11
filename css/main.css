@@ -15,7 +15,6 @@
 /* Extension */
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 @import url("https://mr-miner1.github.io/Better-Badges/src/badges.css");
-@import url("https://mimir-gxp.github.io/Obsidian/css/MacTitleBar.css");
 
   
 :root {
@@ -69,7 +68,6 @@
     --show-gift-gif-buttons: block;
     --font: 'Whitney';
     --font-code: 'Whitney';
-    --update-notice-1: none;
 
     --HSL-server-icon-size: 45px;
     --HSL-server-spacing: 8px;
@@ -133,6 +131,23 @@
     --deprecated-text-input-border-disabled: #202225;
     --deprecated-text-input-prefix: #dcddde;
     --text-link: var(--link-colour);
+}
+
+/* UPDATE */
+
+#app-mount .app-2CXKsg::before {
+    content: "Your version of Obsidian is outdated. Please redownload.";
+    white-space: pre-wrap;
+    display: var(--update-notice, block);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px 0;
+    box-sizing: border-box;
+    background: var(--gradient-50);
+    box-shadow: 0 0px 10px rgb(0, 0, 0, 0.4);
 }
 
 /* FONT */
