@@ -515,7 +515,7 @@ blockquote, code {
 
 .theme-dark .root-g14mjS {
     box-shadow: none;
-    border-radius: 20px;
+    border-radius: 20px !important;
 }
 
 input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
@@ -569,8 +569,14 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
     .contentColumn-1C7as6, .customColumn-2n-oKU {
 	    max-width: 100%;
     }
+
     .sidebarRegion-1VBisG {
         max-width: 300px;
+        min-width: 300px;
+    }
+
+    .micTest---VquM {
+        max-width: 550px;
     }
 
     .sidebar-nqHbhN {
@@ -1478,6 +1484,25 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     transition: 0.3s;
 }
 
+
+.searchBar-jGtisZ, .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    background-color: rgba(1, 1, 1, 0.4);
+    border-radius: 20px;
+    transition: 0.3s;
+    padding-left: 10px;
+}
+
+.searchBar-jGtisZ, .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover {
+    background-color: rgba(1, 1, 1, 0.6);
+}
+
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.chat-2ZfjoI > section > div.toolbar-3_r2xA > div.search-39IXmY > div > div {
+    padding-left: 5px;
+    background-color: var(--channeltextarea-background);
+}
+
+
+
 /* -------------------------------------- */
 
 .scroller-2qwVWY {
@@ -1648,6 +1673,10 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     padding: 8px 0 0 8px !important;
 }
 
+.recentMentionsPopout-2bI1ZN {
+    max-height: 500px !important;
+}
+
 /* Search Box */
 
 .container-2McqkF {
@@ -1718,6 +1747,68 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 }
 
 
+/* View Profil */
+
+.body-1Ukv50 {
+    padding: 10px;
+}
+
+.note-3M15gE textarea {
+    line-height: 26px;
+    padding-left: 10px;
+}
+
+.listRow-2nO1T6 {
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+/* BD Input fix */
+
+.bd-search-wrapper>svg {
+    margin-left: 178px;
+    fill: var(--interactive-normal);
+    position: absolute;
+}
+
+.bd-search {
+    padding: 4px 8px;
+}
+
+
+/* Server Settings */
+
+    /* Members */
+    .customScroller-m1-jZn>div {
+        margin-left: 40px;
+        margin-right: 97px;
+        max-width: none;
+        min-width: 0px;
+    }
+
+    #app-mount .quickSelect-384d3G {
+        margin-top: 0px;
+    }
+    /* Discovery */
+
+    /* Custom Invite Link */
+
+
+
+
+/* Text Color */
+
+
+
+
+
+/* Emoji */
+
+
+
+
+/* Logo */
+
 
 /* ------------------ TODO LIST ------------------- */
 
@@ -1725,11 +1816,12 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 
 - EMOJI
 
+- TEXT COLOR
+
 - LOGO
 
 - TOUS DANS SERVER SETTINGS
 
-- EDIT PROFIL, enlever la bar (username) & changer l'image de mail (mail)
 
 */
 
