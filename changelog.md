@@ -1,5 +1,14 @@
 ## Changelog
 
+#### v2.0.1 (11/03/22)
+* Role redone and deletion of roles in column
+* Settings UI remade
+* Update notice
+* Threads section remade
+* Last popup remade
+* Some bugs fixed
+* Changelog back
+
 #### v7.0 (10/12/21)
 * Emoji popout remade
 * Emoji remade
