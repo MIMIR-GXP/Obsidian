@@ -52,7 +52,13 @@
     --popout-modal-brightness: 0.7;
     
     --gradient: linear-gradient(var(--gradient-direction), var(--gradient-primary), var(--gradient-secondary));
+    --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary-opacity), 0.2), rgba(var(--gradient-secondary-opacity), 0.2));
+    --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary-opacity), 0.5), rgba(var(--gradient-secondary-opacity), 0.5));
+    --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary-opacity), 0.9), rgba(var(--gradient-secondary-opacity), 0.9));
 
+    --gradient-primary-opacity: 62, 50, 173;
+    --gradient-secondary-opacity: 89, 63, 218;
+    
     --gradient-primary: rgb(62, 50, 173);
     --gradient-secondary: rgb(89, 63, 218);
     --gradient-direction: 260deg;
