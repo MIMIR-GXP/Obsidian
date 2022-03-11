@@ -4,7 +4,7 @@
 
 #### Current version: v2.0.1 (11/03/2022)
 
-[![Download][download-logo]][download-url]
+[![Direct Download][download-logo]][download-url]
 
 ## Previews
 
