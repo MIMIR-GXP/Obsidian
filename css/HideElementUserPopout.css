@@ -1,0 +1,13 @@
+/* Hide Direct message & note on user popout */
+
+.footer-3naVBw {
+    display: none;
+}
+
+.body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt > div.bodyInnerWrapper-2bQs1k > h3:nth-child(3) {
+    display: none;
+}
+
+.note-Go5ZP2 {
+    display: none;
+}
