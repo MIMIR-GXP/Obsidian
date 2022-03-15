@@ -1,5 +1,12 @@
 ## Changelog
 
+#### v2.0.2 (15/03/22)
+* Emoji section
+* Server settings fixed
+* Home button fixed
+* Voice & Video fixed
+* Edit message / emoji icon visible
+
 #### v2.0.1 (11/03/22)
 * Role redone and deletion of roles in column
 * Settings UI remade

@@ -2,7 +2,7 @@
 #### Obsidian's Better Discord Theme.
 <hr>
 
-#### Current version: v2.0.1 (11/03/2022)
+#### Current version: v2.0.2 (15/03/2022)
 
 [![Download][download-logo]][download-url]
 
@@ -82,13 +82,12 @@
 
 ## Changelog
 
-#### v2.0.1 (11/03/22)
-* Role redone and deletion of roles in column
-* Settings UI remade
-* Update notice
-* Threads section remade
-* Last popup remade
-* Some bugs fixed
+#### v2.0.2 (15/03/22)
+* Emoji section
+* Server settings fixed
+* Home button fixed
+* Voice & Video fixed
+* Edit message / emoji icon visible
 
 [View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
 
@@ -96,7 +95,7 @@
 [paypal-url]: https://paypal.me/CBovin
 
 [download-logo]: https://img.shields.io/static/v1?label=Download&message=Obsidian+Theme&style=flat&color=blueviolet
-[download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v2.0.1/Obsidian.theme.css
+[download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v2.0.2/Obsidian.theme.css
 
 [discord-logo]: https://img.shields.io/static/v1?label=Discord&message=Server&style=flat&logo=discord&color=blue
 [discord-url]: https://discord.gg/t2c
