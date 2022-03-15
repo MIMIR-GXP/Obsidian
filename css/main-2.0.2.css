@@ -1,6 +1,6 @@
 /**
 * @name Obsidian
-* @version 2.0.1
+* @version 2.0.2
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
@@ -86,10 +86,11 @@
     --badges-everywhere-size: 15px;
     /*default = 15px*/
 
-    --version: "v2.0.1";
+    --version: "v2.0.2";
     --obsidian: "OBSIDIAN";
     /* --logo-obsidian: url(""); */
 
+    --update-notice: none;
 }
 
 .theme-light {
@@ -1553,6 +1554,10 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     margin-bottom: 5px;
 }
 
+.reactionDefault-1Sjj1f, .reactionSelected-1aMb2K {
+    border-radius: 20px;
+}
+
 /* Button Video & Screen */
 
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
@@ -1620,6 +1625,10 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 .container-2rzKKA {
     border-radius: 20px;
     transition: 0.3s;
+}
+
+.container-3i3IzO {
+    border-radius: 20px;
 }
 
 /* Notification Settings */
@@ -1759,7 +1768,11 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 
 .listRow-2nO1T6 {
     transition: 0.3s;
-    border-radius: 20px;
+    border-radius: 20px !important;
+}
+
+.connectedAccount-1xKpli {
+    border-radius: 20px !important;
 }
 
 /* BD Input fix */
@@ -1774,6 +1787,27 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     padding: 4px 8px;
 }
 
+/* Edit Message */
+
+.channelTextArea-220_Gz .buttons-uaqb-5 {
+    opacity: 1;
+}
+
+/* discord notice */
+
+.notice-5OG6bf {
+    border-radius: 20px;
+}
+
+/* Event */
+.textInput-3g8y92 {
+    background-color: transparent;
+}
+
+/* Create Channel & Category */
+#app-mount > div:nth-child(7) > div.layer-1Ixpg3 > form > div > div > div > div > div > div.flex-2S1XBF.flex-3BkGQD.vertical-3aLnqW.flex-3BkGQD.directionColumn-3pi1nm.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.header-1zd7se.header-o8wV_s {
+    box-shadow: none !important;
+}
 
 /* Server Settings */
 
@@ -1789,40 +1823,90 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
         margin-top: 0px;
     }
     /* Discovery */
+    .css-eo20y5 {
+        visibility: hidden;
+    }
+    .css-gvi9bl-control {
+        border-radius: 20px;
+    }
+    .theme-dark .subcategory-1zDTD3 {
+        background-color: var(--gradient-secondary);
+        border-radius: 20px;
+    }
+    .inputWrapper-3a4ywb {
+        border-radius: 20px;
+    }
+    .tag-ijGVSm {
+        background-color: var(--gradient-secondary);
+        border-radius: 20px;
+    }
 
     /* Custom Invite Link */
+    .prefixInput-w72mM6 {
+        border-radius: 20px;
+    }
 
-
-
-
-/* Text Color */
-
-
+    .prefixInputInput-yS14_1, .prefixInputInput-yS14_1:hover, .prefixInputInput-yS14_1:focus  {
+        background-color: transparent !important;
+    }
 
 
 
 /* Emoji */
 
+.contentWrapper-3vHNP2 {
+    background-color: var(--background-obsidian);
+    border-radius: 20px;
+}
 
 
+.emojiPicker-6YCk8a {
+    border-radius: 20px !important;
+    background-color: var(--background-obsidian) !important;
+}
+
+.container-1SX9VC {
+    border-radius: 20px;
+    background-color: rgba(1, 1, 1, 0.4) !important;
+}
+
+.input-2FSSDe, .input-2FSSDe:hover, .input-2FSSDe:focus {
+    background-color: transparent !important;
+}
+
+.wrapper-1NNaWG:after {
+    display: none;
+}
+
+.wrapper-1NNaWG {
+    border-radius: 20px;
+    padding-left: 8px;
+    backdrop-filter: brightness(75%);
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 40%) !important;
+}
+
+.unicodeShortcut-3N8oDe {
+    background-color: var(--background-obsidian);
+    border-radius: 0px 0px 0px 20px !important;
+}
+
+.navButtonActive-1EqC5l {
+    background: var(--gradient);
+    transition: 0.3s;
+    color: #fff;
+}
+
+.scroller-2MALzE {
+    height: 99%;
+}
 
 /* Logo */
 
+#app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS .childWrapper-1j_1ub {
+    background: transparent;
+    background-color: transparent;
+}
 
-/* ------------------ TODO LIST ------------------- */
-
-/*
-
-- EMOJI
-
-- TEXT COLOR
-
-- LOGO
-
-- TOUS DANS SERVER SETTINGS
-
-
-*/
 
 
 /* =====================================PLUGIN SECTION===================================== */
