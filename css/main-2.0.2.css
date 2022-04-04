@@ -1907,6 +1907,18 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     background-color: transparent;
 }
 
+/* Fix bug color of input */
+
+.lookFilled-1GseHa.select-1Ia3hD {
+    background-color: var(--background-secondary) !important;
+    border-color: var(--background-secondary) !important;
+}
+
+/* Tchat voice channel */
+
+.container-3XgAHv {
+    background-color: none !important;
+}
 
 
 /* =====================================PLUGIN SECTION===================================== */
