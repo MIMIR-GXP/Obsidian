@@ -1920,6 +1920,11 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     background-color: none !important;
 }
 
+/* Public text under server name */
+
+.communityInfoPill-2Mll66 {
+    background: var(--gradient) !important;
+}
 
 /* =====================================PLUGIN SECTION===================================== */
 
