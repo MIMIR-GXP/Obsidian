@@ -89,11 +89,6 @@
   transform: translate(-50%, -50%);
 }
 
-#app-mount .layers-OrUESM {
-  margin: var(--window-padding);
-  overflow: hidden;
-  border-radius: var(--window-roundness);
-}
 #app-mount .layer-86YKbF {
   background: var(--tint);
 }

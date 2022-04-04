@@ -1981,3 +1981,11 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 }
 
 /* =====================================PLUGIN SECTION===================================== */
+
+/* app padding */
+
+#app-mount .layers-OrUESM {
+    margin: var(--window-padding);
+    overflow: hidden;
+    border-radius: var(--window-roundness);
+  }
