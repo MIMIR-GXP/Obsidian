@@ -21,7 +21,7 @@
         
             /* MAIN BACKGROUND */
             --background-image: url('https://i.imgur.com/kYW2H5C.jpg');
-            --background-image-blur: 40px;
+            --background-image-blur: 55px;
             --background-image-size: cover;
             --background-image-position: center;
 
@@ -32,8 +32,8 @@
             --popout-modal-position: center;
 
             /* HOME BUTTON */
-            --home-button-image: url('https://i.imgur.com/JrREWjJ.png');
-            --home-button-size: 52px;
+            --home-button-image: url('https://imgur.com/HaT3Die.png');
+            --home-button-size: 50px;
             --home-button-position: center;
 
             /* BRIGHTNESS */
@@ -44,14 +44,6 @@
             --serverlist-brightness: 0.6;
             --popout-modal-brightness: 0.7;
 
-        /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-
-        /* +++++++++++++++++++++++++ APP SIZE +++++++++++++++++++++++++ */
-
-            --window-padding: 25px;
-            --window-roundness: 20px;
-            
         /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
         /* +++++++++++++++++++++++++ SERVER WIDTH +++++++++++++++++++++ */
