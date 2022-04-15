@@ -86,6 +86,7 @@
 * Some Bugs Fixed
 * Fixed a bug that moved app padding
 * UI review
+* User Popout remade !
 * App padding removed
 * Obsidian Logo added from home button
 
