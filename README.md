@@ -2,7 +2,7 @@
 #### Obsidian's Better Discord Theme.
 <hr>
 
-#### Current version: v3.0.0 (15/04/2022)
+#### Current version: v3.0.1 (26/04/2022)
 
 [![Download][download-logo]][download-url]
 
@@ -82,13 +82,11 @@
 
 ## Changelog
 
-#### v3.0.0 (15/04/22)
+#### v3.0.1 (26/04/22)
 * Some Bugs Fixed
-* Fixed a bug that moved app padding
-* UI review
-* User Popout remade !
-* App padding removed
-* Obsidian Logo added from home button
+* Custom Status padding fixed
+* User Popup Badge Fixed
+* User Note Fixed
 
 [View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
 
