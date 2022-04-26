@@ -1,6 +1,6 @@
 /**
 * @name Obsidian
-* @version 3.0.0
+* @version 3.0.1
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
@@ -83,10 +83,11 @@
     --badges-everywhere-size: 15px;
     /*default = 15px*/
 
-    --version: "v3.0.0 Release";
+    --version: "v3.0.1 Release";
     --obsidian: "OBSIDIAN";
     /* --logo-obsidian: url(""); */
 
+    --update-notice: none;
 }
 
 .theme-light {
@@ -253,6 +254,7 @@ blockquote, code {
     height: 36px !important;
 }
 
+
 .popoutBanner-3cqRD9 .pencilContainer-18TrEJ, .popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ {
     top: 100%;
 }
@@ -311,11 +313,15 @@ blockquote, code {
   #app-mount .nickname-t08Mck {
     max-width: 180px;
   }
+
   #app-mount .profileBadges-2pItdR {
-    position: static;
+    position: absolute;
     max-width: unset;
     justify-content: flex-start;
+    top: 95px;
+    left: 20px;
   }
+
   #app-mount .body-2wLx-E {
     margin-top: -24px;
     padding: 0 24px 24px !important;
@@ -1879,8 +1885,9 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 }
 
 .note-3M15gE textarea {
-    line-height: 26px;
-    padding-left: 10px;
+    line-height: 20px;
+    height: 100px !important;
+    border-radius: 20px !important;
 }
 
 .listRow-2nO1T6 {
@@ -2028,7 +2035,12 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 
 .lookFilled-1GseHa.select-1Ia3hD {
     background-color: var(--background-secondary) !important;
-    border-color: var(--background-secondary) !important;
+    border-color: transparent;
+}
+
+.option-2eIyOn[aria-selected=true]:not(.option-2eIyOn.multi-1HXDiv) {
+    color: var(--interactive-active);
+    background-color: var(--background-modifier-hover);
 }
 
 /* Tchat voice channel */
@@ -2041,6 +2053,13 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 
 .communityInfoPill-2Mll66 {
     background: var(--gradient) !important;
+}
+
+/* Custom Status */
+
+.input-3AAlUz {
+    padding-left: 42px !important;
+    padding-right: 36px !important;
 }
 
 /* =====================================PLUGIN SECTION===================================== */
