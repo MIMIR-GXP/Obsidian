@@ -1,5 +1,13 @@
 ## Changelog
 
+#### v3.0.0 (15/04/22)
+* Some Bugs Fixed
+* Fixed a bug that moved app padding
+* UI review
+* User Popout remade !
+* App padding removed
+* Obsidian Logo added from home button
+
 #### v2.0.2 (15/03/22)
 * Emoji section
 * Server settings fixed
