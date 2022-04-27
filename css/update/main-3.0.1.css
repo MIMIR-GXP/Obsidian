@@ -2062,6 +2062,18 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     padding-right: 36px !important;
 }
 
+/* border radius & splash invite */
+
+.inviteSplash-2nkLRX {
+    border-radius: 20px 20px 0 0;
+    height: 230px;
+}
+
+.card-PQEqCK {
+    border-radius: 20px;
+}
+
+
 /* =====================================PLUGIN SECTION===================================== */
 
 /* Plugin BetterFormatingRedux */
