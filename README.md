@@ -2,9 +2,9 @@
 #### Obsidian's Better Discord Theme.
 <hr>
 
-#### Download Betterdiscord and install before download Obsidian Theme
+#### Download BetterDiscord and install before download Obsidian Theme.
 
-https://betterdiscord.app
+Link : https://betterdiscord.app
 
 #### Current version: v3.0.1 (26/04/2022)
 
