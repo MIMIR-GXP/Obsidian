@@ -14,6 +14,7 @@
 
 /* Extension */
 @import url("https://mr-miner1.github.io/Better-Badges/src/badges.css");
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 
   
 :root {
@@ -71,6 +72,9 @@
     --font: 'Whitney';
     --font-code: 'Whitney';
     --update-notice-1: none;
+
+    --HSL-server-icon-size: 40px;
+    --HSL-server-spacing: 8px;
 
     --badge-size: 22px;
     /*discord defualt = 18px, theme defualt = 22px;*/
