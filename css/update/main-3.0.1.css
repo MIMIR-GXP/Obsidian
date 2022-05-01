@@ -2025,6 +2025,27 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     height: 99%;
 }
 
+.header-uVCAlo {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.theme-dark .header-2TLOnc {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.container-3u7RcY:after {
+    background: var(--background-obsidian);
+    content: "";
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+}
+
 /* Logo */
 
 #app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS .childWrapper-1j_1ub {
