@@ -6,7 +6,7 @@
 
 Link : https://betterdiscord.app
 
-#### Current version: v3.0.1 (26/04/2022)
+#### Current version: v3.0.2 (02/05/2022)
 
 [![Download][download-logo]][download-url]
 
@@ -86,11 +86,11 @@ Link : https://betterdiscord.app
 
 ## Changelog
 
-#### v3.0.1 (26/04/22)
+#### v3.0.2 (02/05/22)
 * Some Bugs Fixed
-* Custom Status padding fixed
-* User Popup Badge Fixed
-* User Note Fixed
+* Add Account Style added
+* Emoji Popup Fixed
+* Addons Horizontal Server List moved to User File
 
 [View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
 
@@ -98,7 +98,7 @@ Link : https://betterdiscord.app
 [paypal-url]: https://paypal.me/CBovin
 
 [download-logo]: https://img.shields.io/static/v1?label=Download&message=Obsidian+Theme&style=flat&color=blueviolet
-[download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v3.0.1/Obsidian.theme.css
+[download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v3.0.2/Obsidian.theme.css
 
 [discord-logo]: https://img.shields.io/static/v1?label=Discord&message=Server&style=flat&logo=discord&color=blue
 [discord-url]: https://discord.gg/t2c

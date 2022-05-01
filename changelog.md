@@ -1,5 +1,11 @@
 ## Changelog
 
+#### v3.0.1 (26/04/22)
+* Some Bugs Fixed
+* Custom Status padding fixed
+* User Popup Badge Fixed
+* User Note Fixed
+
 #### v3.0.0 (15/04/22)
 * Some Bugs Fixed
 * Fixed a bug that moved app padding
