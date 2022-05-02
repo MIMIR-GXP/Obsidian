@@ -90,7 +90,6 @@ Link : https://betterdiscord.app
 * Some Bugs Fixed
 * Add Account Style added
 * Emoji Popup Fixed
-* Addons Horizontal Server List moved to User File
 
 [View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
 
