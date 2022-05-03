@@ -2206,6 +2206,22 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     border-radius: 12px;
     transition: 0.3s;
 }
+/* view server as role */
+.container-3ssFyj {
+    padding: 12px;
+    background-color: var(--background-obsidian);
+    border-radius: 20px;
+}
+.notice-2olXi7 {
+    background: var(--gradient);
+}
+.button-YGmtzG:hover {
+    background-color: var(--gradient-secondary);
+}
+.lookOutlined-3yKVGo.colorWhite-1H92hK {
+    border-color: #fff;
+    border: 2px solid;
+}
 
 /* =====================================PLUGIN SECTION===================================== */
 
