@@ -265,13 +265,13 @@ blockquote, code {
 
 #app-mount .userPopout-2j1gM4 {
     border-radius: 20px !important;
-    width: 350px !important;
+    width: 330px !important;
     box-sizing: border-box;
   }
   #app-mount .userPopout-2j1gM4 .avatarWrapper-eenWra {
     position: absolute;
-    top: 25px;
-    right: 18px;
+    top: 15px;
+    right: 15px;
     left: unset;
   }
   
@@ -282,7 +282,7 @@ blockquote, code {
     padding: 24px;
     box-sizing: border-box;
     height: 120px;
-    width: 100%;
+    width: 75%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-end;
@@ -1614,10 +1614,6 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     background-color: var(--channeltextarea-background);
 }
 
-.inputDefault-3FGxgL {
-    padding: 10px !important;
-}
-
 .addFriendHint-1EVQJY {
     padding-left: 10px !important;
 }
@@ -1852,8 +1848,11 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 
 /* Threads Section */
 
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div:nth-child(6) {
+    background-color: rgba(0, 0, 0, var(--middle-brightness)) !important;
+}
+
 .container-3XgAHv {
-    background-color: rgba(0, 0, 0, var(--middle-brightness));
     border-radius: 0px;
 }
 
@@ -2046,10 +2045,6 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     pointer-events: none;
 }
 
-.layer-2aCOJ3 {
-    padding: 30px;
-}
-
 /* Logo */
 
 #app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS .childWrapper-1j_1ub {
@@ -2071,7 +2066,11 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 
 /* Tchat voice channel */
 
-.container-3XgAHv {
+.wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf {
+    border-radius: 0px;
+}
+
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.wrapper-1gVUIN.noChat-2UYgeE.video-3n15R6.chatSidebarOpen--YCxhs > div:nth-child(4) {
     background-color: transparent !important;
 }
 
