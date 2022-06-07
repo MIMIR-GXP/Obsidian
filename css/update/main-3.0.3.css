@@ -1,6 +1,6 @@
 /**
 * @name Obsidian
-* @version 3.0.2
+* @version 3.0.3
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
@@ -83,10 +83,11 @@
     --badges-everywhere-size: 15px;
     /*default = 15px*/
 
-    --version: "v3.0.2 Release";
+    --version: "v3.0.3 Release";
     --obsidian: "OBSIDIAN";
     /* --logo-obsidian: url(""); */
 
+    --update-notice: none;
 }
 
 .theme-light {
@@ -2071,6 +2072,19 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.wrapper-1gVUIN.noChat-2UYgeE.video-3n15R6.chatSidebarOpen--YCxhs > div:nth-child(4) {
     background-color: transparent !important;
+}
+
+.floating-3M3WeH {
+    border-left: none;
+    backdrop-filter: blur(35px);
+}
+
+.container-3XgAHv {
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 40%);
+}
+
+.chat-1-OBC7:before {
+    display: none;
 }
 
 /* Public text under server name */
