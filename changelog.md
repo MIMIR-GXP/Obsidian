@@ -1,5 +1,10 @@
 ## Changelog
 
+#### v3.0.2 (02/05/22)
+* Some Bugs Fixed
+* Add Account Style added
+* Emoji Popup Fixed
+
 #### v3.0.1 (26/04/22)
 * Some Bugs Fixed
 * Custom Status padding fixed
