@@ -1,6 +1,6 @@
 /**
 * @name Obsidian
-* @version 3.0.3 Release
+* @version 3.0.4 Release
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
@@ -10,7 +10,7 @@
 */
 
 /*Import Obsidian Main */
-@import url("https://mimir-gxp.github.io/Obsidian/css/update/main-3.0.3.css");
+@import url("https://mimir-gxp.github.io/Obsidian/css/update/main-3.0.4.css");
 
 /*Addons*/
     /*Mac TitleBar*/
@@ -86,14 +86,6 @@
             /* FONT */
             --font: 'Whitney';
             --font-code: 'Whitney';
-
-        /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-
-        /* +++++++++++++++++ HORIZONTAL SERVER LIST +++++++++++++++++++ */
-
-            --HSL-server-icon-size: 40px;
-            --HSL-server-spacing: 8px;
 
         /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
