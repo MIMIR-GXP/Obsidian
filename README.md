@@ -91,7 +91,6 @@ Link : https://betterdiscord.app
 * Horizontal server list removed to fix "window ride up"
 * User Popout remade
 * Dev badge added (+)
-* Modified font for the watermark
 * Animation added for user section
 * add role button remade
 
