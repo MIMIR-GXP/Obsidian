@@ -192,7 +192,6 @@ blockquote, code {
 
 .titleBar-1it3bQ:not(.typeMacOS-3EmCyP)::before {
     content: var(--obsidian);
-    font-family: 'Poppins';
     position: absolute;
     top: 6px;
     left: 67px;
@@ -201,17 +200,16 @@ blockquote, code {
     width: fit-content;
     pointer-events: none;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.7);
 }
 
 .titleBar-1it3bQ:not(.typeMacOS-3EmCyP)::after {
     content: var(--version);
-    font-family: 'Poppins';
     position: absolute;
     top: 6px;
-    left: 128px;
+    left: 126px;
     display: block;
     height: 16px;
     width: fit-content;
