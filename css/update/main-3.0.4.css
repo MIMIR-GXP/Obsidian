@@ -2303,7 +2303,7 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 
 /* =====================================+ SECTION===================================== */
 
-[data-user-id="970799908812652605"] .profileBadges-2pItdR::after {
+/* [data-user-id="970799908812652605"] .profileBadges-2pItdR {
     content: url('https://mimir-gxp.github.io/Obsidian/img/ObsidianBadge.png');
     position: relative;
     top: -21px;
@@ -2314,7 +2314,7 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     left: 110px !important;
 }
 
-[data-user-id="970799908812652605"] .badgeList-2aoHPw::after {
+[data-user-id="970799908812652605"] .badgeList-2aoHPw {
     content: url('https://mimir-gxp.github.io/Obsidian/img/ObsidianBadge.png');
     position: relative;
     top: 3px;
@@ -2324,7 +2324,7 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 [data-user-id="970799908812652605"] .badgeList-2aoHPw {
     left: 90px;
     position: relative;
-}
+} */
 
 /* =====================================+ SECTION===================================== */
 
