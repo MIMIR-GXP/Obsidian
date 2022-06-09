@@ -1,5 +1,9 @@
 ## Changelog
 
+#### v3.0.3 (07/06/22)
+* Some Bugs Fixed
+* Text in Voice Style added
+
 #### v3.0.2 (02/05/22)
 * Some Bugs Fixed
 * Add Account Style added
