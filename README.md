@@ -97,7 +97,7 @@ Link : https://betterdiscord.app
 [paypal-logo]: https://img.shields.io/static/v1?label=PayPal&message=Donate&style=flat&logo=paypal&color=blue
 [paypal-url]: https://paypal.me/CBovin
 
-[download-logo]: https://img.shields.io/static/v1?label=Download&message=Obsidian+Theme&style=flat&color=blueviolet
+[download-logo]: https://img.shields.io/static/v1?label=Download&message=BetterDiscord&style=flat&color=blue
 [download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v3.0.5/Obsidian.theme.css
 
 [download-logo-betterdiscord]: https://betterdiscord.app/resources/branding/logo_small.svg
