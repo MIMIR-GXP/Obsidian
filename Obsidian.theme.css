@@ -1,6 +1,6 @@
 /**
 * @name Obsidian
-* @version 3.0.4 Release
+* @version 3.0.5 Release
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
@@ -10,7 +10,7 @@
 */
 
 /*Import Obsidian Main */
-@import url("https://mimir-gxp.github.io/Obsidian/css/update/main-3.0.4.css");
+@import url("https://mimir-gxp.github.io/Obsidian/css/update/main-3.0.5.css");
 
 /*Addons*/
     /*Mac TitleBar*/
@@ -25,6 +25,7 @@
             /* MAIN BACKGROUND */
             --background-image: url('https://i.imgur.com/kYW2H5C.jpg');
             --background-image-blur: 55px;
+            --background-image-brightness: 80%;
             --background-image-size: cover;
             --background-image-position: center;
 

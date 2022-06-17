@@ -24,7 +24,6 @@
   --discord-spotify: 29,185,84;
   --discord-twitch: 89,54,149;
   --discord-xbox: 16,124,16;
-  --version: "Frosted Glass 2.0.11";
 }
 
 .theme-dark {
@@ -81,19 +80,17 @@
   background: var(--background-image);
   background-position: var(--background-image-position, center);
   background-size: var(--background-image-size, cover);
+  filter: brightness(var(--background-image-brightness));
   position: absolute;
-  height: calc(100vh + var(--background-image-blur) * 2);
-  width: calc(100vw + var(--background-image-blur) * 2);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
 }
 
 #app-mount .layer-86YKbF {
   background: var(--tint);
 }
 #app-mount .base-2jDfDU:before {
-  content: "";
+  content: none;
   position: absolute;
   height: 5px;
   width: 100%;
@@ -183,11 +180,8 @@
   background-position: var(--background-image-position, center);
   background-size: var(--background-image-size, cover);
   background-repeat: var(--background-image-repeat, no-repeat);
-  height: calc(100vh + var(--background-image-blur) * 2);
-  width: calc(100vw + var(--background-image-blur) * 2);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
   position: absolute;
   filter: blur(var(--background-image-blur));
   pointer-events: none;

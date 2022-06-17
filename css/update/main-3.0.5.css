@@ -1,6 +1,6 @@
 /**
 * @name Obsidian
-* @version 3.0.4
+* @version 3.0.5
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
@@ -19,6 +19,7 @@
 :root {
     --background-image: url('https://i.imgur.com/kYW2H5C.jpg');
     --background-image-blur: 55px;
+    --background-image-brightness: 80%;
     --background-image-size: cover;
     --background-image-position: center;
     --background-low: rgba(0, 0, 0, 0.2);
@@ -79,10 +80,11 @@
     --badges-everywhere-size: 15px;
     /*default = 15px*/
 
-    --version: "v3.0.4 Release";
+    --version: "v3.0.5 Release";
     --obsidian: "OBSIDIAN";
     /* --logo-obsidian: url(""); */
 
+    --update-notice: none;
 }
 
 .theme-light {
@@ -224,7 +226,7 @@ blockquote, code {
 
 .titleBar-1it3bQ {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(50px) brightness(60%);
+    backdrop-filter: blur(var(--background-image-blur)) brightness(60%);
 }
 
 .withFrame-2dL45i {
@@ -610,7 +612,6 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
 
 .header-1zd7se {
     border-radius: 20px 20px 0 0 !important;
-    box-shadow: 0px 4px 9px rgb(0 0 0 / 40%) !important;
 }
 
 .footer-31IekZ {
@@ -2052,6 +2053,10 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     background-color: transparent;
 }
 
+.theme-dark .default-1Tkeeg {
+    background-color: var(--background-obsidian);
+}
+
 /* Logo */
 
 #app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS .childWrapper-1j_1ub {
@@ -2250,16 +2255,6 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     transform: translateX(3px);
 }
 
-/* Stickers & Emoji */
-
-.theme-dark .default-1Tkeeg {
-    background-color: var(--background-obsidian);
-}
-
-#app-mount > div.appDevToolsWrapper-1QxdQf > div > div:nth-child(3) > div.layer-1Ixpg3 > div > div > form > div.content-2hZxGK.modalContent-3QWW0I.thin-31rlnD.scrollerBase-_bVAAt > div.flex-2S1XBF.flex-3BkGQD.vertical-3aLnqW.flex-3BkGQD.directionColumn-3pi1nm.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.header-1zd7se.modalHeader-2KRhe7 {
-    box-shadow: unset !important;
-}
-
 
 
 /* =====================================PLUGIN SECTION===================================== */
@@ -2340,4 +2335,3 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 } */
 
 /* =====================================+ SECTION===================================== */
-
