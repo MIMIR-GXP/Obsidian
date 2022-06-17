@@ -1,5 +1,13 @@
 ## Changelog
 
+#### v3.0.4 (09/06/22)
+* Some Bugs Fixed
+* Horizontal server list removed to fix "window ride up"
+* User Popout remade
+* Dev badge added (+)
+* Animation added for user section
+* add role button remade
+
 #### v3.0.3 (07/06/22)
 * Some Bugs Fixed
 * Text in Voice Style added
