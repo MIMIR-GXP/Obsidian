@@ -2049,6 +2049,10 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     pointer-events: none;
 }
 
+.contentWrapper-2pLX__ {
+    background-color: transparent;
+}
+
 /* Logo */
 
 #app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS .childWrapper-1j_1ub {
@@ -2245,6 +2249,16 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 .member-2gU6Ar:hover {
     transition: 0.3s;
     transform: translateX(3px);
+}
+
+/* Stickers & Emoji */
+
+.theme-dark .default-1Tkeeg {
+    background-color: var(--background-obsidian);
+}
+
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div:nth-child(3) > div.layer-1Ixpg3 > div > div > form > div.content-2hZxGK.modalContent-3QWW0I.thin-31rlnD.scrollerBase-_bVAAt > div.flex-2S1XBF.flex-3BkGQD.vertical-3aLnqW.flex-3BkGQD.directionColumn-3pi1nm.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.header-1zd7se.modalHeader-2KRhe7 {
+    box-shadow: unset !important;
 }
 
 
