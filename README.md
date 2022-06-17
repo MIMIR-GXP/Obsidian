@@ -100,7 +100,7 @@ Link : https://betterdiscord.app
 [download-logo]: https://img.shields.io/static/v1?label=Download&message=Obsidian+Theme&style=flat&color=blueviolet
 [download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v3.0.5/Obsidian.theme.css
 
-[download-logo-betterdiscord]: https://betterdiscord.app/resources/branding/logo_large.svg
+[download-logo-betterdiscord]: https://betterdiscord.app/resources/branding/logo_small.svg
 [download-url-betterdiscord]: https://betterdiscord.app
 
 [discord-logo]: https://img.shields.io/static/v1?label=Discord&message=Server&style=flat&logo=discord&color=blue
