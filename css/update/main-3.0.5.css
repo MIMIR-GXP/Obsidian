@@ -1263,6 +1263,10 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
     margin-right: 10px;
 }
 
+.disabledButtonWrapper-2Oz3aY {
+    display: none;
+}
+
 /* POPUP CALL / Stream Popup */
 .root-1e2tfc {
     border-radius: 20px;
