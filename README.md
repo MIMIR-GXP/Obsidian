@@ -95,7 +95,7 @@
 
 [obsidian-logo]: https://mimir-gxp.github.io/Obsidian/img/obsidian_logo.png
 
-[paypal-logo]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/paypal_button.png
+[paypal-logo]: https://mimir-gxp.github.io/Obsidian/img/obsidian_logo.png
 [paypal-url]: https://paypal.me/CBovin
 
 [download-logo]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/obsidian_button.png
