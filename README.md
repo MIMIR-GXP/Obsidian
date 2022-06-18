@@ -1,10 +1,9 @@
-# [![Obsidian][obsidian-logo]] OBSIDIAN THEME - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
+# ![image](https://mimir-gxp.github.io/Obsidian/img/obsidian_logo.png) OBSIDIAN THEME - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
 #### Obsidian's Better Discord Theme.
 <hr>
 
 #### Download BetterDiscord and install before download Obsidian Theme.
 
-Link : https://betterdiscord.app
 [![Download][download-logo-betterdiscord]][download-url-betterdiscord]
 
 #### Current version: v3.0.5 (17/06/2022)
@@ -94,7 +93,7 @@ Link : https://betterdiscord.app
 
 [View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
 
-[obsidian-logo]: 
+[obsidian-logo]: https://mimir-gxp.github.io/Obsidian/img/obsidian_logo.png
 
 [paypal-logo]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/paypal_button.png
 [paypal-url]: https://paypal.me/CBovin
