@@ -1333,6 +1333,15 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
     border-radius: 20px;
 }
 
+.interactive:hover {
+    color: #fff;
+    background: var(--gradient-90) !important;
+}
+
+.wrapper-1ZcZW- {
+    background: var(--gradient-50) !important;
+}
+
 /* POPUP Description */
 
 #app-mount .tooltip-14MtrL {
