@@ -320,7 +320,7 @@ blockquote, code {
 
   #app-mount .body-2wLx-E {
     margin-top: -24px;
-    padding: 0 24px 24px !important;
+    padding: 0 24px 0px !important;
   }
 
   #app-mount .body-2wLx-E::-webkit-scrollbar {
@@ -1333,13 +1333,32 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
     border-radius: 20px;
 }
 
-.interactive:hover {
-    color: #fff;
-    background: var(--gradient-90) !important;
+.interactive {
+    background: var(--gradient-50);
 }
 
-.wrapper-1ZcZW- {
-    background: var(--gradient-50) !important;
+.interactive:hover {
+    background: var(--gradient-90);
+}
+
+/* speaking */
+
+.avatarSpeaking-2pCGrZ, .avatarSpeaking-33RRJU, .border-2BJQjd.speaking-3RWJBr, .avatar-2EVtgZ.speaking-3K28iH {
+    box-shadow: inset 0 0 0 2px var(--gradient-secondary), inset 0 0 0 3px var(--background-secondary);
+}
+
+/* note */
+
+div > div > div.body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt > div.bodyInnerWrapper-2bQs1k > h3:nth-child(4) {
+    display: none;
+}
+
+div > div > div.body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt > div.bodyInnerWrapper-2bQs1k > h3:nth-child(3) {
+    display: none;
+}
+
+.note-Go5ZP2 {
+    display: none;
 }
 
 /* POPUP Description */
