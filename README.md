@@ -1,4 +1,4 @@
-# Obsidian Theme - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
+# [![Obsidian][obsidian-logo]] OBSIDIAN THEME - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
 #### Obsidian's Better Discord Theme.
 <hr>
 
@@ -94,14 +94,16 @@ Link : https://betterdiscord.app
 
 [View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
 
-[paypal-logo]: https://img.shields.io/static/v1?label=PayPal&message=Donate&style=flat&logo=paypal&color=blue
+[obsidian-logo]: 
+
+[paypal-logo]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/paypal_button.png
 [paypal-url]: https://paypal.me/CBovin
 
-[download-logo]: https://img.shields.io/static/v1?label=Download&message=BetterDiscord&style=flat&color=blue
+[download-logo]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/obsidian_button.png
 [download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v3.0.5/Obsidian.theme.css
 
-[download-logo-betterdiscord]: 
+[download-logo-betterdiscord]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/bd_button.png
 [download-url-betterdiscord]: https://betterdiscord.app
 
-[discord-logo]: https://i.imgur.com/qhWR8bD.png
+[discord-logo]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/discord_button.png
 [discord-url]: https://discord.gg/t2c
