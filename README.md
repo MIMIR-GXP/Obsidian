@@ -5,6 +5,7 @@
 #### Download BetterDiscord and install before download Obsidian Theme.
 
 Link : https://betterdiscord.app
+[![Download][download-logo-betterdiscord]][download-url-betterdiscord]
 
 #### Current version: v3.0.5 (17/06/2022)
 
@@ -96,8 +97,11 @@ Link : https://betterdiscord.app
 [paypal-logo]: https://img.shields.io/static/v1?label=PayPal&message=Donate&style=flat&logo=paypal&color=blue
 [paypal-url]: https://paypal.me/CBovin
 
-[download-logo]: https://img.shields.io/static/v1?label=Download&message=Obsidian+Theme&style=flat&color=blueviolet
+[download-logo]: https://img.shields.io/static/v1?label=Download&message=BetterDiscord&style=flat&color=blue
 [download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v3.0.5/Obsidian.theme.css
 
-[discord-logo]: https://img.shields.io/static/v1?label=Discord&message=Server&style=flat&logo=discord&color=blue
+[download-logo-betterdiscord]: 
+[download-url-betterdiscord]: https://betterdiscord.app
+
+[discord-logo]: https://i.imgur.com/qhWR8bD.png
 [discord-url]: https://discord.gg/t2c
