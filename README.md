@@ -1,4 +1,4 @@
-# https://mimir-gxp.github.io/Obsidian/img/obsidian_logo.png OBSIDIAN THEME - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
+# [image](https://mimir-gxp.github.io/Obsidian/img/obsidian_logo.png) OBSIDIAN THEME - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
 #### Obsidian's Better Discord Theme.
 <hr>
 
