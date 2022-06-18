@@ -1334,11 +1334,11 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
 }
 
 .interactive {
-    background: var(--gradient-50);
+    background: var(--gradient-50) !important;
 }
 
 .interactive:hover {
-    background: var(--gradient-90);
+    background: var(--gradient-90) !important;
 }
 
 /* speaking */
