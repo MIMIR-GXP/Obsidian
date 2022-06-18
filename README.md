@@ -1,4 +1,4 @@
- [![Obsidian][obsidian-logo]] # OBSIDIAN THEME - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
+# [![Obsidian][obsidian-logo]] OBSIDIAN THEME - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
 #### Obsidian's Better Discord Theme.
 <hr>
 
