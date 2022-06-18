@@ -1,5 +1,5 @@
-# ![image](https://mimir-gxp.github.io/Obsidian/img/obsidian_logo.png) - [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
-#### Obsidian's Better Discord Theme.
+![image](https://mimir-gxp.github.io/Obsidian/img/obsidian_logo.png)
+#### [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
 <hr>
 
 #### Download BetterDiscord and install before download Obsidian Theme.
@@ -92,8 +92,6 @@
 * All blurs on the app has been remade to fix "window ride up" bug
 
 [View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
-
-[obsidian-logo]: https://mimir-gxp.github.io/Obsidian/img/obsidian_logo.png
 
 [paypal-logo]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/paypal_button.png
 [paypal-url]: https://paypal.me/CBovin
