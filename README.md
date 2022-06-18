@@ -1,3 +1,5 @@
+<hr>
+
 ![image](https://mimir-gxp.github.io/Obsidian/img/obsidian_logo.png)
 <hr>
 
