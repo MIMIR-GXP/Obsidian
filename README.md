@@ -1,4 +1,4 @@
-# ![image]
+# ![image](https://mimir-gxp.github.io/Obsidian/img/obsidian_logo.png)
 #### [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
 <hr>
 
