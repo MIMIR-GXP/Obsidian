@@ -1,6 +1,7 @@
 # ![image](https://mimir-gxp.github.io/Obsidian/img/obsidian_logo.png)
-#### [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
 <hr>
+#### [![Paypal][paypal-logo]][paypal-url] [![Discord][discord-logo]][discord-url]
+
 
 #### Download BetterDiscord and install before download Obsidian Theme.
 
