@@ -103,5 +103,5 @@ Link : https://betterdiscord.app
 [download-logo-betterdiscord]: 
 [download-url-betterdiscord]: https://betterdiscord.app
 
-[discord-logo]: https://img.shields.io/static/v1?label=Discord&message=Server&style=flat&logo=discord&color=blue
+[discord-logo]: https://i.imgur.com/qhWR8bD.png
 [discord-url]: https://discord.gg/t2c
