@@ -191,7 +191,7 @@ blockquote, code {
     margin-top: 3px;
 }
 
-.titleBar-1it3bQ:not(.typeMacOS-3EmCyP)::before {
+.wordmarkWindows-2dq6rw::before {
     content: var(--obsidian);
     position: absolute;
     top: 6px;
@@ -206,7 +206,7 @@ blockquote, code {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.titleBar-1it3bQ:not(.typeMacOS-3EmCyP)::after {
+.wordmarkWindows-2dq6rw::after {
     content: var(--version);
     position: absolute;
     top: 6px;
@@ -238,7 +238,6 @@ blockquote, code {
     position: relative;
     top: 0px;
     cursor: pointer;
-    width: 40px;
     height: 24px;
     pointer-events: auto;
     -webkit-app-region: no-drag;
