@@ -1337,6 +1337,10 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
     background: var(--gradient-90) !important;
 }
 
+.channelIcon-3I2O7O {
+    top: -2px;
+}
+
 /* Speaking */
 
 .avatarSpeaking-2pCGrZ, .avatarSpeaking-33RRJU, .border-2BJQjd.speaking-3RWJBr, .avatar-2EVtgZ.speaking-3K28iH {
