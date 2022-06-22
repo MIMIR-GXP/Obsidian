@@ -1066,11 +1066,6 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
 
 /* role & add role */
 
-.addButton-1_dZYu {
-    transition: 0.3s;
-    padding: 3px !important;
-}
-
 .role-2TIOKu {
     font-size: 12px;
     font-weight: 500;
@@ -1089,7 +1084,7 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
 }
 
 #app-mount .rolesList-3uZoaa {
-    gap: 3px;
+    gap: 2px;
 }
 
 .roleCircle-1EgnFN {
@@ -1126,14 +1121,16 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
     padding: 5px;
 }
 
-.body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt > div.bodyInnerWrapper-2bQs1k > div.root-jbEB5E.flex-3BkGQD.wrap-7NZuTn.rolesList-3uZoaa > button > svg > path:hover {
-    fill: rgb(110, 255, 166);
-}
-.addButton-1_dZYu:hover {
-    color: rgb(110, 255, 166);
-}
 .addButton-1_dZYu {
-    width: 100%;
+    transition: 0.3s;
+    padding: 3px !important;
+    color: rgb(255, 255, 255);
+    opacity: .6;
+}
+
+.addButton-1_dZYu:hover {
+    color: rgb(255, 255, 255);
+    opacity: 1;
 }
 
 /* Perks nitro */
@@ -1341,10 +1338,34 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
     background: var(--gradient-90) !important;
 }
 
-/* speaking */
+/* Speaking */
 
 .avatarSpeaking-2pCGrZ, .avatarSpeaking-33RRJU, .border-2BJQjd.speaking-3RWJBr, .avatar-2EVtgZ.speaking-3K28iH {
     box-shadow: inset 0 0 0 2px var(--gradient-secondary), inset 0 0 0 3px var(--background-secondary);
+}
+
+.avatar-3FKimL {
+    transition: .18s;
+}
+
+.voiceUser-3nRK-K .avatarSpeaking-2pCGrZ:after {
+    width: 150px !important;
+}
+
+.voiceUser-3nRK-K .avatarContainer-3FF_Km:after {
+    content: "";
+    width: 0;
+    height: 24px;
+    top: 3px;
+    left: 17px;
+    position: absolute;
+    background: linear-gradient(to right, var(--gradient-secondary) 10%, transparent);
+    opacity: .5;
+    transition: all .1s ease-in-out,width .18s ease-in-out;
+    pointer-events: none;
+    z-index: -1;
+    border-radius: 999px;
+    border-radius: 0px 12px 12px 0px;
 }
 
 /* note */
@@ -2286,9 +2307,6 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     transition: 0.3s;
     transform: translateX(3px);
 }
-
-
-
 /* =====================================PLUGIN SECTION===================================== */
 
 /* Plugin BetterFormatingRedux */
