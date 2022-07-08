@@ -1086,14 +1086,15 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
     gap: 2px;
 }
 
-.roleCircle-1EgnFN {
+.roleRemoveIcon-387wKV {
     cursor: pointer;
 }
 
 .roleCircle-1EgnFN::after {
 	content: "";
 	background: inherit;
-	height: 24px; width: 100%;
+	height: 24px; 
+    width: 230px;
 	position: absolute;
 	left: 0;
 	opacity: 0.1;
