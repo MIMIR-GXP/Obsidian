@@ -769,6 +769,15 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
     .inputWrapper-1YNMmM.multiInputFirst-3-OxIz {
         margin-right: 5px;
     }
+
+    .connectedAccountContainer-SlCC-S {
+        margin-top: 20px;
+        padding: 8px;
+        width: 244px;
+        background-color: var(--background-low);
+        border-radius: 4px;
+        border-radius: 20px;
+    }
     
     /* Gift Inventory */
 
