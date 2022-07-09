@@ -12,7 +12,7 @@
 
 ## Previews
 
-![image](https://mimir-gxp.github.io/Obsidian/img/Preview/p1.jpg)
+![image](https://mimir-gxp.github.io/Obsidian/img/Preview/p0.jpg)
 
 <!-- #### Main chat area
 
