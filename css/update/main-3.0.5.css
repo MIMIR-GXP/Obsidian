@@ -2051,6 +2051,24 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
         background-color: transparent !important;
     }
 
+    /* Message Bg */
+
+    .enableContainer-1J91Aq {
+        padding: 16px;
+        background-color: var(--background-secondary);
+        border-radius: 20px;
+    }
+
+    .enableContainer-2MEsKV {
+        background-color: var(--background-secondary);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .welcomeChannel-_Q4qAA {
+        border-radius: 20px;
+        background-color: var(--background-secondary);
+    }
 
 
 /* Emoji */
