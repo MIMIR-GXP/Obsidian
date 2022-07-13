@@ -1273,6 +1273,13 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
     display: none;
 }
 
+.scroller-3b1p7z {
+    border-radius: 20px;
+    padding: 8px 16px;
+    background-color: var(--background-active);
+    backdrop-filter: blur(50px);
+}
+
 /* POPUP CALL / Stream Popup */
 .root-1e2tfc {
     border-radius: 20px;
