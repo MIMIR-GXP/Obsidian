@@ -11,7 +11,7 @@
 [![Download][download-logo]][download-url]
 
 ## Previews
-
+### Fully customizable
 ![image](https://mimir-gxp.github.io/Obsidian/img/Preview/p0.jpg)
 
 <!-- #### Main chat area
