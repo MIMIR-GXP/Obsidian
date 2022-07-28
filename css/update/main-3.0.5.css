@@ -1099,7 +1099,7 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
     cursor: pointer;
 }
 
-.roleCircle-3K9O3d::after {
+.roleRemoveButton-17oXnT > span::after {
 	content: "";
 	background: inherit;
 	height: 24px; 
