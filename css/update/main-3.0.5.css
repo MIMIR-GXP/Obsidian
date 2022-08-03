@@ -14,7 +14,6 @@
 
 /* Extension */
 @import url("https://mr-miner1.github.io/Better-Badges/src/badges.css");
-@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 
   
 :root {
@@ -86,10 +85,6 @@
     /* --logo-obsidian: url(""); */
 
     --update-notice: none;
-
-    --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
-    --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
-    --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
 }
 
 .theme-light {
