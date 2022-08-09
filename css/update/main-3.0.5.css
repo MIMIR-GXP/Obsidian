@@ -786,6 +786,21 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
         top: 115px;
         left: 15px;
     }
+
+    .container-YkUktl {
+        margin-bottom: 15px;
+        justify-content: space-between;
+    }
+
+    .withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {
+        background-color: var(--background-modifier-hover);
+        color: var(--interactive-hover);
+        padding: 0px 10px 0px 4px;
+    }
+    .withTagAsButton-OsgQ9L, .withTagless-10ooWt {
+        transition: 0.3s;
+        border-radius: 20px;
+    }
     
     /* Gift Inventory */
 
