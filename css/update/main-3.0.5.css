@@ -796,6 +796,7 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
         background-color: var(--background-modifier-hover);
         color: var(--interactive-hover);
         padding: 0px 10px 0px 4px;
+        border-radius: 20px;
     }
     .withTagAsButton-OsgQ9L, .withTagless-10ooWt {
         transition: 0.3s;
@@ -853,6 +854,11 @@ input.inputDefault-3FGxgL.input-2g-os5.noBorder-2p63tM {
 .searchBar-jGtisZ, .searchBar-3TnChZ .searchBarComponent-3N7dCG {
     background-color: var(--channeltextarea-background);
     border-radius: 20px;
+}
+
+.role-23oyrw {
+    border-radius: 20px;
+    transition: 0.3s;
 }
   
 
@@ -2428,29 +2434,17 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 
 /* =====================================PLUGIN SECTION===================================== */
 
-/* =====================================+ SECTION===================================== */
+/* ===================================== SECTION ANIMATION ===================================== */
 
-/* [data-user-id="970799908812652605"] .profileBadges-2pItdR {
-    content: url('https://mimir-gxp.github.io/Obsidian/img/ObsidianBadge.png');
-    position: relative;
-    top: -21px;
-    left: -90px;
+/* container members animation
+
+.container-2o3qEW {
+    transform: translateX(200px);
+    transition: 0.3s;
 }
 
-[data-user-id="970799908812652605"] .profileBadges-2pItdR {
-    left: 110px !important;
-}
-
-[data-user-id="970799908812652605"] .badgeList-2aoHPw {
-    content: url('https://mimir-gxp.github.io/Obsidian/img/ObsidianBadge.png');
-    position: relative;
-    top: 3px;
-    left: -140px;
-}
-
-[data-user-id="970799908812652605"] .badgeList-2aoHPw {
-    left: 90px;
-    position: relative;
+.container-2o3qEW:hover {
+    transform: translateX(0px);
 } */
 
-/* =====================================+ SECTION===================================== */
+/* ===================================== SECTION ANIMATION ===================================== */
