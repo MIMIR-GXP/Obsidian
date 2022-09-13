@@ -1005,6 +1005,15 @@ textarea {
     border-radius: 20px;
 }
 
+.scroller-1bVxF5 {
+    overflow: unset !important;
+}
+
+.popoutBanner-3cqRD9 .pencilContainer-18TrEJ, .popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ {
+    top: 10%;
+    z-index: 999;
+}
+
 /* Gift Inventory */
 
 .sizeMedium-2bFIHr {
