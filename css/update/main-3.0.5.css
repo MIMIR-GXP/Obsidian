@@ -1005,7 +1005,7 @@ textarea {
     border-radius: 20px;
 }
 
-.scroller-1bVxF5 {
+#account > div {
     overflow: unset !important;
 }
 
@@ -2641,6 +2641,68 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 .tag-4fIUbr {
     border-radius: 20px;
     background-color: var(--gradient-secondary);
+}
+
+/* New Home Forum */
+.theme-dark .background-fkKrXt {
+    background: var(--background-primary);
+}
+
+.theme-dark .headerBarInner-2pcZSM:after {
+    background: transparent !important;
+}
+
+.icon-2IDTxf:after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: -5px;
+    width: 100%;
+    height:56%;
+    top:-5px;
+    border-radius: 18px 18px 0px 0px;
+    border: 5px solid var(--background-secondary);
+    border-bottom-width: 0px; 
+}
+
+.container-2Hi7Km, .icon-2IDTxf {
+    background-color: var(--background-secondary);
+}
+
+.container-xwOzwi {
+    width: 100%;
+    padding: 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: var(--background-secondary);
+}
+
+.card-3x20HF {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: var(--background-secondary);
+}
+
+.container-3HMTms {
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.interactiveCard-2iMtdk.selected-sszUNx, .interactiveCard-2iMtdk:active, .interactiveCard-2iMtdk:hover {
+    border: 1px solid var(--background-modifier-accent);
+}
+
+@media (max-width: 1300px) {
+    .scrollIcon-2Rr5re.right-3cwXhE {
+        right: -6px;
+    }
+    .scrollIcon-2Rr5re.left-3fyAgi {
+        left: -6px;
+    }
 }
 
 /* =====================================PLUGIN SECTION===================================== */
