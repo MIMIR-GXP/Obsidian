@@ -1014,6 +1014,14 @@ textarea {
     z-index: 999;
 }
 
+.connectedAccountContainer-3aLMHJ {
+    margin-top: 20px;
+    padding: 10px;
+    width: 235px;
+    background-color: var(--background-secondary);
+    border-radius: 50px;
+}
+
 /* Gift Inventory */
 
 .sizeMedium-2bFIHr {
