@@ -2783,22 +2783,9 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 
 /* ===================================== SECTION ANIMATION ===================================== */
 
-/* .membersWrap-3NUR2t {
-    transition-duration: .3s;
-    justify-content: unset;
-    min-width: unset;
-    width: 60px;
-  }
-  
-  .membersGroup-2eiWxl {
-    opacity: 0;
-    transition-duration: .3s;
-  }
-  
-  .membersWrap-3NUR2t:hover .membersGroup-2eiWxl{
-    opacity: 1;
-  }
-  
-  .membersWrap-3NUR2t:hover {
-    width: 260px;
-  } */
+/* Temporary Update */ 
+
+.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy.clickable-3iBWTO {
+    top: 72px !important;
+    left: 18px !important;
+}
