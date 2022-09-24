@@ -1,6 +1,6 @@
 /**
 * @name Obsidian
-* @version 3.0.5 Release
+* @version 3.0.6 Release
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
@@ -10,7 +10,7 @@
 */
 
 /*Import Obsidian Main */
-@import url("https://mimir-gxp.github.io/Obsidian/css/update/main-3.0.5.css");
+@import url("https://mimir-gxp.github.io/Obsidian/css/update/main-3.0.6.css");
 
 /*Addons*/
     /*Mac TitleBar*/
@@ -95,4 +95,6 @@
         /*  --update-notice: none;  */  /* Remove the comment if you want remove the update message */
 
         /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-}       
+}
+
+/* VVV ADD YOUR CODE BELOW THIS LINE VVV */
