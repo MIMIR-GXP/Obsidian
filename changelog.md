@@ -1,5 +1,10 @@
 ## Changelog
 
+#### v3.0.5 (17/06/22)
+* Some Bugs Fixed in server settings
+* "Window ride up" bugs FIXED !
+* All blurs on the app has been remade to fix "window ride up" bug
+
 #### v3.0.4 (09/06/22)
 * Some Bugs Fixed
 * Horizontal server list removed to fix "window ride up"
