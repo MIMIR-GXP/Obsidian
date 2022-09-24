@@ -1021,6 +1021,10 @@ textarea {
     border-radius: 20px;
 }
 
+.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy.clickable-3iBWTO > div > div > svg > circle {
+    opacity: 0 !important;
+}
+
 /* KeyBinds */
 
 .theme-dark .container-30qY7E {
