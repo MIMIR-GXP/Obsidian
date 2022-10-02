@@ -279,6 +279,7 @@ code {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.7);
 }
+
 .wordmarkWindows-2dq6rw:after {
     content: var(--version);
     position: absolute;
@@ -335,7 +336,7 @@ code {
 #app-mount .modalRoot-1Kx4Hb,
 #app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-_bVAAt,
 #app-mount .popoutContainer-2wbmiM,
-#app-mount .userPopoutInner-1v4xcM,
+#app-mount .userPopoutInner-1hXSeY,
 #app-mount .root-1gCeng:not(.modal-3Crloo),
 #app-mount .container-2O1UgZ,
 #app-mount .container-18GwIk,
@@ -362,7 +363,7 @@ code {
 #app-mount .modalRoot-1Kx4Hb:before,
 #app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-_bVAAt:before,
 #app-mount .popoutContainer-2wbmiM:before,
-#app-mount .userPopoutInner-1v4xcM:before,
+#app-mount .userPopoutInner-1hXSeY:before,
 #app-mount .root-1gCeng:not(.modal-3Crloo):before,
 #app-mount .container-2O1UgZ:before,
 #app-mount .container-18GwIk:before,
@@ -390,7 +391,7 @@ code {
 
 /*User POPUP */
 
-#app-mount .userPopout-29jUdN {
+#app-mount .userPopoutOuter-3AVBmJ {
     border-radius: 20px !important;
     box-sizing: border-box;
     box-shadow: 0px 0px 45px rgba(0, 0, 0, 1);
@@ -409,18 +410,30 @@ code {
     border-radius: 20px;
 }
 
-.overlayBackground-2Zjm9f {
+.overlayBackground-1KgwVi {
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
     border-radius: 20px 20px 0px 0px;
 }
 
-.overlayBackground-2Zjm9f {
+.overlayBackground-1KgwVi {
     margin: 28px 25px 0px 25px;
 }
 
 .profileBadges-31rDHI {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
     border-radius: 20px;
+}
+
+.memberSinceContainer-3biwiY {
+    justify-content: center;
+}
+
+.body-2Fhyoo {
+    font-weight: 500;
+}
+
+.userInfoText-2MFCmH {
+    font-weight: 500;
 }
 
 /* NOTE PROFILE */
@@ -1021,7 +1034,7 @@ textarea {
     border-radius: 20px;
 }
 
-.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy.clickable-3iBWTO > div > div > svg > circle {
+.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy.clickable-3iBWTO>div>div>svg>circle {
     opacity: 0 !important;
 }
 
@@ -1341,7 +1354,7 @@ svg.bd-switch-symbol {
 
 .rolePill-2IJ1vo {
     background-color: transparent;
-    border: 1px solid;
+    border: 0px solid;
     border-color: transparent;
 }
 
