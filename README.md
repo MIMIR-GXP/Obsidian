@@ -6,7 +6,7 @@
 
 [![Download][download-logo-betterdiscord]][download-url-betterdiscord]
 
-#### Current version: v3.0.6 (24/09/2022)
+#### Current version: v3.0.6 (03/10/2022)
 
 [![Download][download-logo]][download-url]
 
