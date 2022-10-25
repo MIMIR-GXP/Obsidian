@@ -12,10 +12,6 @@
 /* Base - FrostedGlass By Gibbu ---> https://github.com/Gibbu */
 @import url("https://mimir-gxp.github.io/Obsidian/css/update/base.css");
 
-/* Extension */
-@import url("https://mr-miner1.github.io/Better-Badges/src/badges.css");
-
-
 :root {
     --background-image: url('https://i.imgur.com/kYW2H5C.jpg');
     --background-image-blur: 55px;
@@ -336,7 +332,7 @@ code {
 #app-mount .modalRoot-1Kx4Hb,
 #app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-_bVAAt,
 #app-mount .popoutContainer-2wbmiM,
-#app-mount .userPopoutInner-1hXSeY,
+#app-mount .userPopoutOuter-3AVBmJ,
 #app-mount .root-1gCeng:not(.modal-3Crloo),
 #app-mount .container-2O1UgZ,
 #app-mount .container-18GwIk,
@@ -393,9 +389,13 @@ code {
 
 #app-mount .userPopoutOuter-3AVBmJ {
     border-radius: 20px !important;
-    box-sizing: border-box;
     box-shadow: 0px 0px 45px rgba(0, 0, 0, 1);
-
+}
+.popoutBannerPremium-2RvDNZ {
+    border-radius: 20px 20px 0px 0px;
+}
+.profileBannerPremium-3xIFwS {
+    border-radius: 20px 20px 0px 0px;
 }
 
 .messageInputContainer-2rGDH8 {
@@ -1013,6 +1013,7 @@ textarea {
     width: 235px;
     background-color: var(--background-secondary);
     border-radius: 50px;
+    border: none;
 }
 
 .heading-lg-medium-3gUJeM,
@@ -1417,6 +1418,19 @@ svg.bd-switch-symbol {
 
 .theme-dark .perksModal-CLcR1c {
     background-color: var(--background-obsidian);
+}
+
+.theme-dark .feature-2IUcBI {
+    background-color: var(--background-secondary);
+    border-radius: 20px;
+}
+
+.featurePremiumGuild-2uV6-N .featureImage-91H2fC {
+    bottom: 0;
+    position: absolute;
+    right: -16px;
+    width: 187px;
+    border-radius: 0 0 20px 0px;
 }
 
 /* SCREEN SHARE */
@@ -1959,6 +1973,10 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 .friend-8ZraY7 {
     border-radius: 20px 10px 10px 20px;
     transition: 0.3s;
+}
+
+.input-1bmui3 {
+    padding: 12px;
 }
 
 
