@@ -12,6 +12,9 @@
 /* Base - FrostedGlass By Gibbu ---> https://github.com/Gibbu */
 @import url("https://mimir-gxp.github.io/Obsidian/css/update/base.css");
 
+/*Font Import*/
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
 :root {
     --background-image: url('https://i.imgur.com/kYW2H5C.jpg');
     --background-image-blur: 55px;
@@ -20,6 +23,7 @@
     --background-image-position: center;
     --background-low: rgba(0, 0, 0, 0.2);
     --background-active: rgba(0, 0, 0, 0.5);
+    --background-high: rgba(0, 0, 0, 0.8);
     --background-button: rgba(255, 255, 255, 0.3);
     --background-button-active: rgba(255, 255, 255, 0.8);
     --background-obsidian: #0c111c;
@@ -65,8 +69,8 @@
     --scrollbar-colour: #ffffff0d;
     --link-colour: #4A60D6FF;
     --show-gift-gif-buttons: block;
-    --font: 'Whitney';
-    --font-code: 'Whitney';
+    --font: 'Rubik';
+    --font-code: 'Rubik';
     --update-notice-1: none;
 
     --badge-size: 22px;
@@ -76,7 +80,7 @@
     --badges-everywhere-size: 15px;
     /*default = 15px*/
 
-    --version: "v3.0.6 | Updated [03/10/22]";
+    --version: "v3.0.6 | Updated [04/12/22]";
     --obsidian: "OBSIDIAN";
     /* --logo-obsidian: url(""); */
 
@@ -391,9 +395,11 @@ code {
     border-radius: 20px !important;
     box-shadow: 0px 0px 45px rgba(0, 0, 0, 1);
 }
+
 .popoutBannerPremium-2RvDNZ {
     border-radius: 20px 20px 0px 0px;
 }
+
 .profileBannerPremium-3xIFwS {
     border-radius: 20px 20px 0px 0px;
 }
@@ -432,20 +438,29 @@ code {
     font-weight: 500;
 }
 
+.userProfileModalInner-3fh3QA:before {
+    border-radius: 20px;
+}
+
 /* NOTE PROFILE */
 .note-6O4w9y textarea {
     background-color: unset !important;
-    border-radius: 0px !important;
+    border-radius: 8px !important;
 }
 
 .note-6O4w9y textarea:hover {
     background-color: unset !important;
-    border-radius: 0px !important;
+    border-radius: 8px !important;
 }
 
 .note-6O4w9y textarea:focus {
     background-color: unset !important;
-    border-radius: 0px !important;
+    border-radius: 8px !important;
+}
+
+.note-3TX9O7 textarea {
+    border-radius: 8px !important;
+    padding-right: 4px;
 }
 
 /*SHADOW */
@@ -516,7 +531,8 @@ code {
     cursor: pointer;
 }
 
-.member-48YF_l, .members-3WRCEx {
+.member-48YF_l,
+.members-3WRCEx {
     background-color: transparent;
 }
 
@@ -576,11 +592,6 @@ code {
 .modeSelected-346R90 .content-1SgpWY,
 .modeSelected-346R90:hover .content-1SgpWY {
     background: var(--gradient) !important;
-}
-
-#app-mount [role=menu] {
-    border-radius: 15px;
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
 }
 
 .item-1tOPte {
@@ -961,13 +972,13 @@ textarea {
     margin-right: 5px;
 }
 
-.connectedAccountContainer-SlCC-S {
+.connectedAccountContainer-2TWiXT {
     margin-top: 20px;
-    padding: 8px;
-    width: 244px;
-    background-color: var(--background-low);
-    border-radius: 4px;
-    border-radius: 20px;
+    padding: 10px;
+    width: 235px;
+    background-color: var(--background-secondary);
+    border-radius: 50px;
+    border: none;
 }
 
 #profile-customization-tab>div:nth-child(5)>div>div>div.customizationSection-IGy2fS.preview-Z55SA3>div>div.headerTop-3GPUSF>div.profileBadges-2pItdR.container-1gYwHN {
@@ -1005,15 +1016,6 @@ textarea {
 .popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ {
     top: 10%;
     z-index: 999;
-}
-
-.connectedAccountContainer-3aLMHJ {
-    margin-top: 20px;
-    padding: 10px;
-    width: 235px;
-    background-color: var(--background-secondary);
-    border-radius: 50px;
-    border: none;
 }
 
 .heading-lg-medium-3gUJeM,
@@ -1094,8 +1096,16 @@ textarea {
 
 /* role=menu */
 
+#account {
+    border-radius: 0px !important;
+    background-color: var(--background-secondary) !important;
+    margin-top: 15px;
+
+}
+
 #app-mount [role=menu] {
     border-radius: 20px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
 }
 
 /* Server & Folders */
@@ -1340,6 +1350,8 @@ svg.bd-switch-symbol {
 
 .roles-3zC7MX {
     margin-left: 12px;
+
+
 }
 
 .role-2TIOKu {
@@ -1348,38 +1360,40 @@ svg.bd-switch-symbol {
     border-radius: 20px;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgb(0 0 0 / 40%);
+    box-shadow: 0px 0px 12px rgb(0 0 0 / 25%);
     padding: 10px 5px 10px 1px;
     transition: 0.3s;
+
 }
 
 .rolePill-2IJ1vo {
     background-color: transparent;
     border: 0px solid;
     border-color: transparent;
+
 }
 
 .role-2TIOKu:hover {
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
-.roles-1waBHC {
+.roles-3zC7MX {
     gap: 2px;
 }
 
-.roleRemoveIcon-387wKV {
+.roleRemoveButton-17oXnT {
     cursor: pointer;
 }
 
 .roleRemoveButton-17oXnT>span::after {
     content: "";
-    background: inherit;
+    background: inherit !important;
     height: 24px;
     width: 250px;
     position: absolute;
     left: -1px;
     opacity: 0.1;
-    z-index: -1;
+    z-index: 1;
 }
 
 .container-2O1UgZ {
@@ -1431,6 +1445,26 @@ svg.bd-switch-symbol {
     right: -16px;
     width: 187px;
     border-radius: 0 0 20px 0px;
+}
+
+.content-2eQb8J {
+    background-color: transparent;
+}
+
+.theme-dark .iconWrapper-2_MXbk {
+    background: var(--gradient-secondary);
+}
+
+.value-kR4BVK {
+    border-radius: 0 !important;
+}
+
+.checkbox-f1HnKB {
+    border-width: 2px;
+}
+
+.box-BHImcZ {
+    border-radius: 9px;
 }
 
 /* SCREEN SHARE */
@@ -2274,13 +2308,17 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
     border-radius: 12px !important;
 }
 
-.listRow-2nO1T6 {
+.listRow-Y5zoF8 {
     transition: 0.3s;
-    border-radius: 20px !important;
+    border-radius: 30px !important;
 }
 
 .connectedAccount-1xKpli {
     border-radius: 20px !important;
+}
+
+.iconActiveMedium-27_R5B {
+    border-radius: 20px;
 }
 
 /* BD Input fix */
@@ -2310,6 +2348,12 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 /* Event */
 .textInput-3g8y92 {
     background-color: transparent;
+}
+
+#app-mount .bd-search-wrapper,
+#app-mount .input-2g-os5:not(.searchBoxInput-3h4etz) {
+    background: var(--background-secondary) !important;
+    border-radius: 20px;
 }
 
 /* Create Channel & Category */
@@ -2394,7 +2438,7 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 
 
 .emojiPicker-6YCk8a {
-    border-radius: 20px !important;
+    border-radius: 0px 0px 20px 20px !important;
     background-color: var(--background-obsidian) !important;
 }
 
@@ -2461,6 +2505,11 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 }
 
 .theme-dark .default-1Tkeeg {
+    background-color: var(--background-obsidian);
+}
+
+.header-11eigE {
+    border-radius: 20px 20px 0px 0px;
     background-color: var(--background-obsidian);
 }
 
