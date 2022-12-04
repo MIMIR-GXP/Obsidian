@@ -1,6 +1,6 @@
 /**
 * @name Obsidian
-* @version 3.0.6
+* @version 3.0.7
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
@@ -80,9 +80,11 @@
     --badges-everywhere-size: 15px;
     /*default = 15px*/
 
-    --version: "v3.0.6 | Updated [04/12/22]";
+    --version: "v3.0.7 | Updated [04/12/22]";
     --obsidian: "OBSIDIAN";
     /* --logo-obsidian: url(""); */
+
+    --update-notice: none;
 }
 
 .theme-light {

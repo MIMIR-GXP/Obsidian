@@ -1,6 +1,6 @@
 /**
 * @name Obsidian
-* @version 3.0.6 Release
+* @version 3.0.7 Release
 * @description Obsidian Discord Theme.
 * @author ᛗᛁᛗᛁᚱ
 * @authorId 106097290640363520
@@ -10,7 +10,7 @@
 */
 
 /*Import Obsidian Main */
-@import url("https://mimir-gxp.github.io/Obsidian/css/update/main-3.0.6.css");
+@import url("https://mimir-gxp.github.io/Obsidian/css/update/main-3.0.7.css");
 
 /*Addons*/
     /*Mac TitleBar*/
@@ -87,8 +87,8 @@
             --link-colour: #4A60D6FF;
 
             /* FONT */
-            --font: 'Whitney';
-            --font-code: 'Whitney';
+            --font: 'Rubik';
+            --font-code: 'Rubik';
 
         /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
