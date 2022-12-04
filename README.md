@@ -6,7 +6,7 @@
 
 [![Download][download-logo-betterdiscord]][download-url-betterdiscord]
 
-#### Current version: v3.0.6 (03/10/2022)
+#### Current version: v3.0.6 (04/12/2022)
 
 [![Download][download-logo]][download-url]
 
@@ -86,14 +86,8 @@
 
 ## Changelog
 
-#### v3.0.6 (24/09/22)
+#### v3.0.6 (04/12/22)
 - Some Bugs Fixed cause new Discord Update.
-- User Popup & User profile section remade from 0.
-- Billing section on settings made.
-- New Home section made.
-- Preview added on github.
-- Member animation added.
-- Some useless lines removed on the main code
 
 [View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
 

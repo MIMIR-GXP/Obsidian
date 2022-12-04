@@ -1,5 +1,14 @@
 ## Changelog
 
+#### v3.0.6 (24/09/22)
+- Some Bugs Fixed cause new Discord Update.
+- User Popup & User profile section remade from 0.
+- Billing section on settings made.
+- New Home section made.
+- Preview added on github.
+- Member animation added.
+- Some useless lines removed on the main code
+
 #### v3.0.5 (17/06/22)
 * Some Bugs Fixed in server settings
 * "Window ride up" bugs FIXED !
