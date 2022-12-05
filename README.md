@@ -95,10 +95,10 @@
 [paypal-url]: https://paypal.me/CBovin
 
 [download-logo]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/obsidian_button.png
-[download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v3.0.6/Obsidian.theme.css
+[download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v3.0.7/Obsidian.theme.css
 
 [download-logo-betterdiscord]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/bd_button.png
 [download-url-betterdiscord]: https://betterdiscord.app
 
 [discord-logo]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/discord_button.png
-[discord-url]: https://discord.gg/t2c
+[discord-url]: https://discord.gg/infinitygames
