@@ -6,7 +6,7 @@
 
 [![Download][download-logo-betterdiscord]][download-url-betterdiscord]
 
-#### Current version: v3.0.6 (04/12/2022)
+#### Current version: v3.0.7 (04/12/2022)
 
 [![Download][download-logo]][download-url]
 
@@ -86,7 +86,7 @@
 
 ## Changelog
 
-#### v3.0.6 (04/12/22)
+#### v3.0.7 (04/12/22)
 - Some Bugs Fixed cause new Discord Update.
 
 [View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
@@ -95,10 +95,10 @@
 [paypal-url]: https://paypal.me/CBovin
 
 [download-logo]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/obsidian_button.png
-[download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v3.0.6/Obsidian.theme.css
+[download-url]: https://github.com/MIMIR-GXP/Obsidian/releases/download/v3.0.7/Obsidian.theme.css
 
 [download-logo-betterdiscord]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/bd_button.png
 [download-url-betterdiscord]: https://betterdiscord.app
 
 [discord-logo]: https://mimir-gxp.github.io/Obsidian/img/Download%20Button/discord_button.png
-[discord-url]: https://discord.gg/t2c
+[discord-url]: https://discord.gg/infinitygames
