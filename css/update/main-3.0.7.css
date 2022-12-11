@@ -13,7 +13,9 @@
 @import url("https://mimir-gxp.github.io/Obsidian/css/update/base.css");
 
 /*Font Import*/
-@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.cdnfonts.com/css/rubik');
+@import url('https://fonts.cdnfonts.com/css/code-new-roman-2');
+@import url('https://fonts.cdnfonts.com/css/source-code-pro');
 
 :root {
     --background-image: url('https://i.imgur.com/kYW2H5C.jpg');
@@ -69,8 +71,8 @@
     --scrollbar-colour: #ffffff0d;
     --link-colour: #4A60D6FF;
     --show-gift-gif-buttons: block;
-    --font: 'Rubik';
-    --font-code: 'Rubik';
+    --font: 'gg sans', sans-serif;
+    --font-code: 'gg sans', sans-serif;
     --update-notice-1: none;
 
     --badge-size: 22px;
@@ -80,12 +82,23 @@
     --badges-everywhere-size: 15px;
     /*default = 15px*/
 
-    --version: "v3.0.7 | Updated [04/12/22]";
+    --version: "v3.0.7 | Updated [11/12/22]";
     --obsidian: "OBSIDIAN";
     /* --logo-obsidian: url(""); */
 
     --update-notice: none;
 }
+
+/* TEMP christmass */
+
+#app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS .childWrapper-1j_1ub {
+    display: none;
+}
+
+image {
+    display: none;
+}
+
 
 .theme-light {
     --header-primary: #fff;
@@ -245,6 +258,12 @@ code {
     font-family: var(--font-code) !important;
 }
 
+.markup-eYLPri code.inline {
+    font-family: 'source code pro' !important;
+    font-weight: 500;
+    font-size: 78%;
+}
+
 /*WATERMARK & Side Bar Style*/
 
 .typeWindows-2-g3UY>.wordmark-2u86JB>svg>g>path:first-child {
@@ -317,8 +336,10 @@ code {
 }
 
 /* APP BLUR */
-
-#app-mount [role=menu],
+[role=menu]:not(#account),
+.messagesPopoutWrap-3zryHW,
+.container-2ebMPP,
+.loadingPopout-1feYe_,
 #app-mount .autocompleteInner-y1mjDl,
 #app-mount .container-2McqkF,
 #app-mount .container-enaOkj,
@@ -345,8 +366,10 @@ code {
     position: relative;
     border-radius: 3px;
 }
-
-#app-mount [role=menu]:before,
+[role=menu]:not(#account):before,
+.messagesPopoutWrap-3zryHW:before,
+.container-2ebMPP:before,
+.loadingPopout-1feYe_:before,
 #app-mount .autocompleteInner-y1mjDl:before,
 #app-mount .container-2McqkF:before,
 #app-mount .container-enaOkj:before,
@@ -417,12 +440,9 @@ code {
 }
 
 .overlayBackground-1KgwVi {
+    margin: 28px 25px 0px 25px;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
     border-radius: 20px 20px 0px 0px;
-}
-
-.overlayBackground-1KgwVi {
-    margin: 28px 25px 0px 25px;
 }
 
 .profileBadges-31rDHI {
@@ -949,6 +969,10 @@ textarea {
 
 /* User Profile */
 
+.userPopoutInner-1hXSeY {
+    max-height: calc(100vh - 50px);
+}
+
 .avatarUploaderInner-p38nm2 {
     border: 0px solid var(--background-floating) !important;
 }
@@ -1022,6 +1046,25 @@ textarea {
 .heading-lg-normal-1bqh2L {
     font-family: var(--font-display);
     font-size: 14px;
+}
+
+.chat-2ZfjoI > div.content-1jQy2l > aside > div > div > div > div:nth-child(2) {
+    border-radius: 12px;
+}
+
+.chat-2ZfjoI > div.content-1jQy2l > aside > div > div > div > div:nth-child(3) {
+    border-radius: 12px;
+}
+
+.chat-2ZfjoI > div.content-1jQy2l > aside > div > div > div > div:nth-child(4) {
+    border-radius: 12px;
+}
+.chat-2ZfjoI > div.content-1jQy2l > aside > div > div > div {
+    margin-right: -8px;
+}
+
+.badgeList-2pMvZX, .badgeList-1EecKl {
+    border-radius: 20px;
 }
 
 /* Gift Inventory */
@@ -1098,15 +1141,15 @@ textarea {
 
 #account {
     border-radius: 0px !important;
-    background-color: var(--background-secondary) !important;
     margin-top: 15px;
 
 }
 
-#app-mount [role=menu] {
+[role=menu]:not(#account) {
     border-radius: 20px;
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.4);
 }
+
 
 /* Server & Folders */
 
@@ -1342,7 +1385,6 @@ svg.bd-switch-symbol {
 /* Loading */
 
 .loadingPopout-1feYe_ {
-    background-color: var(--background-obsidian);
     border-radius: 50px;
 }
 
@@ -2154,7 +2196,6 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 
 .browser-mnQ1T7 {
     border-radius: 20px !important;
-    background-color: var(--background-obsidian);
 }
 
 .searchBox-3IjAC1 {
@@ -2179,7 +2220,6 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 /* Pinned Message */
 
 .messagesPopoutWrap-3zryHW {
-    background-color: var(--background-obsidian) !important;
     border-radius: 20px;
     max-height: 500px !important;
 }
@@ -2191,7 +2231,6 @@ button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_
 /* Inbox */
 
 .container-2ebMPP {
-    background-color: var(--background-obsidian) !important;
     border-radius: 20px;
 }
 
