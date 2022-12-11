@@ -6,7 +6,7 @@
 
 [![Download][download-logo-betterdiscord]][download-url-betterdiscord]
 
-#### Current version: v3.0.7 (04/12/2022)
+#### Current version: v3.0.7 (11/12/2022)
 
 [![Download][download-logo]][download-url]
 
@@ -86,7 +86,7 @@
 
 ## Changelog
 
-#### v3.0.7 (04/12/22)
+#### v3.0.7 (11/12/22)
 - Some Bugs Fixed cause new Discord Update.
 
 [View previous changelogs](https://github.com/MIMIR-X/Obsidian/blob/master/changelog.md)
